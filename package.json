@@ -1,6 +1,7 @@
 {
   "name": "tourm",
   "version": "0.1.0",
+  "homepage": "https://applecodes-s.github.io/new-web",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -22,17 +23,15 @@
     "react-scripts": "5.0.1",
     "react-select": "^5.10.0",
     "swiper": "^11.2.4",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://devbyme-ux.github.io/new-web"
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
