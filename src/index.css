@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.categorySlider .swiper-wrapper {
+    transition-timing-function: ease-in-out !important;
+  }
+
+  /* Make dots larger */
+.categorySlider .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #555; /* your color */
+    opacity: 0.6;
+    margin: 6px !important; /* increase spacing */
+  }
+  
+  /* Active dot */
+  .categorySlider .swiper-pagination-bullet-active {
+    background: #000; /* active color */
+    opacity: 1;
+    transform: scale(1.3); /* make active bullet stand out */
+  }
+  
+  /* On smaller screens (mobile) make them even bigger for touch */
+  @media (max-width: 768px) {
+    .categorySlider .swiper-pagination-bullet {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  

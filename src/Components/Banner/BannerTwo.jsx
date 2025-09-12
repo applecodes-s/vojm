@@ -88,7 +88,7 @@ function BannerTwo() {
         <SwiperSlide>
           <div className="hero-inner">
             <video autoPlay loop muted>
-              <source src="/assets/img/hero/hero-video.mp4" type="video/mp4" />
+              <source src={process.env.PUBLIC_URL + "/assets/img/hero/hero-video.mp4"} type="video/mp4" />
             </video>
             <div className="container">
               <div className="hero-style2">
@@ -129,10 +129,10 @@ function BannerTwo() {
         <div className="slider-pagination" />
         <div className="hero-icon">
           <button data-slider-prev="#heroSlide2" className="hero-arrow slider-prev" onClick={() => handleSliderNavigation('prev')}>
-            <img src="/assets/img/icon/hero-arrow-left.svg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/icon/hero-arrow-left.svg"} alt="" />
           </button>
           <button data-slider-next="#heroSlide2" className="hero-arrow slider-next" onClick={() => handleSliderNavigation('next')}>
-            <img src="/assets/img/icon/hero-arrow-right.svg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/icon/hero-arrow-right.svg"} alt="" />
           </button>
         </div>
       </div>
@@ -161,7 +161,7 @@ function BannerTwo() {
           <div className="hero-inner">
             <div className="hero-card">
               <div className="hero-img">
-                <img src="/assets/img/hero/hero_bg_2_1.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/hero/hero_bg_2_1.jpg"} alt="" />
               </div>
               <div className="hero-card_content">
                 <h3 className="box-title">Mountain Tour</h3>
@@ -176,7 +176,7 @@ function BannerTwo() {
           <div className="hero-inner">
             <div className="hero-card">
               <div className="hero-img">
-                <img src="/assets/img/hero/hero_bg_2_2.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/hero/hero_bg_2_2.jpg"} alt="" />
               </div>
               <div className="hero-card_content">
                 <h3 className="box-title">Yachts Tour</h3>
@@ -191,7 +191,7 @@ function BannerTwo() {
           <div className="hero-inner">
             <div className="hero-card">
               <div className="hero-img">
-                <img src="/assets/img/hero/hero_bg_2_3.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/hero/hero_bg_2_3.jpg"} alt="" />
               </div>
               <div className="hero-card_content">
                 <h3 className="box-title">Mountain Tour</h3>
@@ -207,7 +207,7 @@ function BannerTwo() {
       <div className="scroll-down">
         <Link to="/#destination-sec" onClick={handleScroll} className="scroll-wrap">
           <span>
-            <img src="/assets/img/icon/down-arrow.svg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/icon/down-arrow.svg"} alt="" />
           </span>
           Scroll Down
         </Link>

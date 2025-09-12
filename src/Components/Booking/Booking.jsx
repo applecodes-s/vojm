@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function MinistryInfo() {
     return (
@@ -46,18 +48,18 @@ function MinistryInfo() {
                                     <i className="fa-brands fa-youtube" />
                                 </div>
                                 <div className="search-input">
-                                    <label>YouTube Sermons</label>
-                                    <p className="static-info text-black">1000+ Messages</p>
+                                    <label> Sermons</label>
+                                    <p className="static-info text-black">2000+ Messages</p>
                                 </div>
                             </div>
 
                             {/* Button */}
                             <div className="form-btn col-md-12 col-lg-auto">
-                                <a href="/about" className="th-btn">
-                                    <img src="/assets/img/icon/search.svg" alt="" />
-                                    Explore Ministry
-                                </a>
-                            </div>
+  <Link to="/about" className="th-btn">
+    <img src={process.env.PUBLIC_URL + "/assets/img/icon/search.svg"} alt="" />
+    Explore Ministry
+  </Link>
+</div>
                         </div>
                     </div>
                 </div>

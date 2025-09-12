@@ -25,7 +25,7 @@ const Cta = () => {
               />
               <button type="submit" className="th-btn style1 btn-fw">
                 Subscribe Now
-                <img src="assets/img/icon/plane2.svg" alt="Subscribe" className="ms-2" />
+                <img src={process.env.PUBLIC_URL + "assets/img/icon/plane2.svg"} alt="Subscribe" className="ms-2" />
               </button>
             </form>
           </div>

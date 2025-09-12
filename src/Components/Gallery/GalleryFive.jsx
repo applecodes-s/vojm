@@ -42,7 +42,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_1.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_1.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_1.jpg', e)}
                                 />
@@ -57,7 +57,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_2.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_2.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_2.jpg', e)}
                                 />
@@ -72,7 +72,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_3.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_3.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_3.jpg', e)}
                                 />
@@ -87,7 +87,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_4.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_4.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_4.jpg', e)}
                                 />
@@ -102,7 +102,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_5.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_5.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_5.jpg', e)}
                                 />
@@ -117,7 +117,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_1.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_1.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_1.jpg', e)}
                                 />
@@ -132,7 +132,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_2.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_2.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_2.jpg', e)}
                                 />
@@ -147,7 +147,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_3.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_3.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_3.jpg', e)}
                                 />
@@ -162,7 +162,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_4.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_4.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_4.jpg', e)}
                                 />
@@ -177,7 +177,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_5.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_5.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_5.jpg', e)}
                                 />
@@ -192,7 +192,7 @@ function GalleryFive() {
                         <SwiperSlide>
                             <div className="gallery-thumb style2 global-img">
                                 <img
-                                    src="/assets/img/gallery/gallery_4_2.jpg"
+                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_4_2.jpg"
                                     alt="Gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_4_2.jpg', e)}
                                 />

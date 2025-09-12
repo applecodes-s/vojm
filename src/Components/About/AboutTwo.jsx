@@ -12,13 +12,13 @@ function AboutTwo() {
                     <div className="col-xl-7">
                         <div className="img-box3">
                             <div className="img1">
-                                <img src="/assets/img/normal/about_3_1.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_1.jpg"} alt="About" />
                             </div>
                             <div className="img2">
-                                <img src="/assets/img/normal/about_3_2.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_2.jpg"} alt="About" />
                             </div>
                             <div className="img3 movingX">
-                                <img src="/assets/img/normal/about_3_3.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_3.jpg" }alt="About" />
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ function AboutTwo() {
                             <div className="about-item-wrap">
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_1.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_1.svg"} alt="" />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Exclusive Trip</h5>
@@ -50,7 +50,7 @@ function AboutTwo() {
                                 </div>
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_2.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_2.svg"} alt="" />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Safety First Always</h5>
@@ -62,7 +62,7 @@ function AboutTwo() {
                                 </div>
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_3.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_3.svg"} alt="" />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Professional Guide</h5>
@@ -88,7 +88,7 @@ function AboutTwo() {
                         left: "-20%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_2_1.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_1.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup jump d-none d-xxl-block"
@@ -97,7 +97,7 @@ function AboutTwo() {
                         right: "-15%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_2_2.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_2.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup spin d-none d-xxl-block"
@@ -106,7 +106,7 @@ function AboutTwo() {
                         left: "-17%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_2_3.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_3.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup movixgX d-none d-xxl-block"
@@ -115,7 +115,7 @@ function AboutTwo() {
                         right: "-18%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_2_4.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_4.png"} alt="shape" />
                 </div>
             </div>
             <div
@@ -125,7 +125,7 @@ function AboutTwo() {
                     right: "-2%",
                 }}
             >
-                <img src="/assets/img/shape/car_1.png" alt="shape" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/shape/car_1.png"} alt="shape" />
             </div>
             <div
                 className="shape-mockup d-none d-xxl-block"
@@ -134,7 +134,7 @@ function AboutTwo() {
                     right: "0%",
                 }}
             >
-                <img src="/assets/img/shape/tree_1.png" alt="shape" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/shape/tree_1.png"} alt="shape" />
             </div>
         </div>
 

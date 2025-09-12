@@ -10,7 +10,7 @@ const guides = [
   {
     id: 1,
     name: "Inisai Geethangal Part 2",
-    image: "team_1_1.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/team/team_1_1.jpg",
     youtube: "https://www.youtube.com/watch?v=1_MM8OXrUQ4&list=OLAK5uy_mTuvXcnySF0srH6KRlVInHcS8V_TDrBRI&index=2",
     youtubeMusic: "https://www.youtube.com/watch?v=1_MM8OXrUQ4&list=OLAK5uy_mTuvXcnySF0srH6KRlVInHcS8V_TDrBRI&index=2",
     spotify: "https://open.spotify.com/album/2kWyY5wOzik9C9rV8FibRi?si=f6Qr3cB-RNuftnFnrwQHAQ",
@@ -19,7 +19,7 @@ const guides = [
   {
     id: 2,
     name: "Kaalam Ini Selladhu",
-    image: "team_1_2.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_2.jpg",
     youtube: "https://www.youtube.com/watch?v=ev-XLgermDI&list=OLAK5uy_loSzUVBryGdxSWRhNEY-WNGmAA15nsUoA",
     youtubeMusic: "https://www.youtube.com/watch?v=ev-XLgermDI&list=OLAK5uy_loSzUVBryGdxSWRhNEY-WNGmAA15nsUoA",
     spotify: "https://open.spotify.com/album/4MT4Q5CW7vavtsOvU8R7RQ?si=kr3GoOWCTtWa2kyV91T37w",
@@ -28,7 +28,7 @@ const guides = [
   {
     id: 3,
     name: "Neatru Indru Naalai",
-    image: "team_1_3.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_3.jpg",
     youtube: "https://youtu.be/ZPold4GK3HI?si=vl6ux1-OhVMQZD4-",
     youtubeMusic: "https://www.youtube.com/watch?v=3sU_iy8RJVQ&list=OLAK5uy_k-fdymecIoqJELNNRb_rn9S9Iu_GV75yE",
     spotify: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0aTFTz",
@@ -37,7 +37,7 @@ const guides = [
   {
     id: 4,
     name: "Inisai Geethangal Part 1",
-    image: "team_1_4.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_4.jpg",
     youtube: "https://www.youtube.com/watch?v=nrcmkrOVBt8&list=OLAK5uy_nCuydv9g-27dzf1_LOQ0Ks7Yu8LjZZ3A8",
     youtubeMusic: "https://www.youtube.com/watch?v=nrcmkrOVBt8&list=OLAK5uy_nCuydv9g-27dzf1_LOQ0Ks7Yu8LjZZ3A8",
     spotify: "https://open.spotify.com/album/0VtLx9A5g7xyzF47O5m2Tg?si=DsGesM8pQ1m8d05GOgn0gg",
@@ -46,7 +46,7 @@ const guides = [
   {
     id: 5,
     name: "Vidhaikindra Kaalam",
-    image: "team_1_5.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_5.jpg",
     youtube: "https://www.youtube.com/watch?v=hjdZYV7hARs&list=OLAK5uy_kgFDQ2ISDTEu3vRLvXgFKVBjxJPaiCar0",
     youtubeMusic: "https://www.youtube.com/watch?v=hjdZYV7hARs&list=OLAK5uy_kgFDQ2ISDTEu3vRLvXgFKVBjxJPaiCar0",
     spotify: "https://open.spotify.com/album/3ybdltArAF56nNVocAoG2o?si=RVx0nCCmStWsy3mZtHuJfA",
@@ -55,7 +55,7 @@ const guides = [
   {
     id: 6,
     name: "Ekkalam Thonithidum",
-    image: "team_1_6.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_6.jpg",
     youtube: "https://www.youtube.com/watch?v=KqbKv6HZC_I&list=OLAK5uy_nJSvLTUyrMEx7zr32HlnQ_60KTb1coJ_A",
     youtubeMusic: "https://www.youtube.com/watch?v=KqbKv6HZC_I&list=OLAK5uy_nJSvLTUyrMEx7zr32HlnQ_60KTb1coJ_A",
     spotify: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0aTFTz",
@@ -64,7 +64,7 @@ const guides = [
   {
     id: 7,
     name: "Neatru Indru Naalai",
-    image: "team_1_3.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_3.jpg",
     youtube: "https://youtu.be/ZPold4GK3HI?si=vl6ux1-OhVMQZD4-",
     youtubeMusic: "https://www.youtube.com/watch?v=3sU_iy8RJVQ&list=OLAK5uy_k-fdymecIoqJELNNRb_rn9S9Iu_GV75yE",
     spotify: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0aTFTz",
@@ -73,7 +73,7 @@ const guides = [
   {
     id: 8,
     name: "Kaalam Ini Selladhu",
-    image: "team_1_2.jpg",
+    image: process.env.PUBLIC_URL + "/assets/img/team/team_1_2.jpg",
     youtube: "https://www.youtube.com/watch?v=ev-XLgermDI&list=OLAK5uy_loSzUVBryGdxSWRhNEY-WNGmAA15nsUoA",
     youtubeMusic: "https://www.youtube.com/watch?v=ev-XLgermDI&list=OLAK5uy_loSzUVBryGdxSWRhNEY-WNGmAA15nsUoA",
     spotify: "https://open.spotify.com/album/4MT4Q5CW7vavtsOvU8R7RQ?si=kr3GoOWCTtWa2kyV91T37w",
@@ -128,7 +128,7 @@ function TourGuide() {
                 <div className="th-team team-box">
                   <div className="team-img">
                     <img
-                      src={`/assets/img/team/${guide.image}`}
+                      src={`${guide.image}`}
                       alt={guide.name}
                     />
                   </div>

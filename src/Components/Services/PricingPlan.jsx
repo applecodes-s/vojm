@@ -15,7 +15,7 @@ function PricingPlan({className}) {
                             {/* <div className="offer-tag">Popular</div> */}
                             <div className="price-card_wrapp">
                                 <div className="price-card_icon">
-                                    <img src="assets/img/icon/price_1_1.svg" alt="img" />
+                                    <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_1.svg"} alt="img" />
                                 </div>
                                 <h3 className="box-title">AXIS Bank</h3>
                             </div>
@@ -48,7 +48,7 @@ function PricingPlan({className}) {
                             {/* <div className="offer-tag">Popular</div> */}
                             <div className="price-card_wrapp">
                                 <div className="price-card_icon">
-                                    <img src="assets/img/icon/price_1_1.svg" alt="img" />
+                                    <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_1.svg"} alt="img" />
                                 </div>
                                 <h3 className="box-title">ICICI Bank</h3>
                             </div>
@@ -81,7 +81,7 @@ function PricingPlan({className}) {
                             <div className="offer-tag">Popular</div>
                             <div className="price-card_wrapp">
                                 <div className="price-card_icon">
-                                    <img src="assets/img/icon/price_1_3.svg" alt="img" />
+                                    <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_3.svg" alt="img" />
                                 </div>
                                 <h3 className="box-title">Premium Plan</h3>
                             </div>
@@ -118,7 +118,7 @@ function PricingPlan({className}) {
                 >
                     <img
                         className="gmovingX"
-                        src="assets/img/normal/about-slide-img.png"
+                        src={process.env.PUBLIC_URL + "assets/img/normal/about-slide-img.png"}
                         alt="shape"
                     />
                 </div>
@@ -126,13 +126,13 @@ function PricingPlan({className}) {
                     className="shape-mockup d-none d-xl-block"
                     style={{ bottom: "-13%", left: "-16%" }}
                 >
-                    <img src="assets/img/shape/shape_6.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "assets/img/shape/shape_6.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup jump d-none d-xl-block"
                     style={{ top: "15%", left: "-10%" }}
                 >
-                    <img src="assets/img/shape/shape_2_2.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "assets/img/shape/shape_2_2.png"} alt="shape" />
                 </div>
             </div>
         </section>

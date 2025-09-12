@@ -28,7 +28,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_1.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_1.jpg"
                                     className="icon-btn popup-image"
@@ -42,7 +42,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_2.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_2.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_2.jpg"
                                     className="icon-btn popup-image"
@@ -56,7 +56,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_3.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_3.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_3.jpg"
                                     className="icon-btn popup-image"
@@ -70,7 +70,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_4.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_4.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_4.jpg"
                                     className="icon-btn popup-image"
@@ -84,7 +84,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_5.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_5.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_5.jpg"
                                     className="icon-btn popup-image"
@@ -98,7 +98,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_6.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_6.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_6.jpg"
                                     className="icon-btn popup-image"
@@ -112,7 +112,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_7.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_7.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_7.jpg"
                                     className="icon-btn popup-image"
@@ -126,7 +126,7 @@ function GalleryInner() {
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">
-                                <img src="/assets/img/gallery/gallery_8_8.jpg" alt="gallery" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_8.jpg"} alt="gallery" />
                                 <Link
                                     to="assets/img/gallery/gallery_8_8.jpg"
                                     className="icon-btn popup-image"

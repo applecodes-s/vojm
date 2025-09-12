@@ -8,13 +8,13 @@ function AboutFour() {
                <div className="col-xl-7">
                   <div className="img-box3">
                      <div className="img1">
-                        <img src="/assets/img/normal/about_3_1.jpg" alt="About" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_1.jpg"} alt="About" />
                      </div>
                      <div className="img2">
-                        <img src="/assets/img/normal/about_3_2.jpg" alt="About" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_2.jpg"} alt="About" />
                      </div>
                      <div className="img3 movingX">
-                        <img src="/assets/img/normal/about_3_3.jpg" alt="About" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_3_3.jpg"} alt="About" />
                      </div>
                   </div>
                </div>
@@ -43,7 +43,7 @@ function AboutFour() {
                      <div className="about-item-wrap">
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_1.svg" alt="" />
+                              <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_1.svg"} alt="" />
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Exclusive Trip</h5>
@@ -55,7 +55,7 @@ function AboutFour() {
                         </div>
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_2.svg" alt="" />
+                              <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_2.svg"} alt="" />
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Safety First Always</h5>
@@ -67,7 +67,7 @@ function AboutFour() {
                         </div>
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_3.svg" alt="" />
+                              <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_3.svg"} alt="" />
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Professional Guide</h5>
@@ -90,25 +90,25 @@ function AboutFour() {
                className="shape-mockup movingX d-none d-xxl-block"
                style={{ top: '0%', left: '-18%' }}
             >
-               <img src="/assets/img/shape/shape_2_1.png" alt="shape" />
+               <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_1.png"} alt="shape" />
             </div>
             <div
                className="shape-mockup jump d-none d-xxl-block"
                style={{ top: '28%', right: '-15%' }}
             >
-               <img src="/assets/img/shape/shape_2_2.png" alt="shape" />
+               <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_2.png"} alt="shape" />
             </div>
             <div
                className="shape-mockup spin d-none d-xxl-block"
                style={{ top: '18%', left: '-112%' }}
             >
-               <img src="/assets/img/shape/shape_2_3.png" alt="shape" />
+               <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_3.png"} alt="shape" />
             </div>
             <div
                className="shape-mockup movixgX d-none d-xxl-block"
                style={{ bottom: '18%', right: '-12%' }}
             >
-               <img src="/assets/img/shape/shape_2_4.png" alt="shape" />
+               <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2_4.png"} alt="shape" />
             </div>
          </div>
       </div>

@@ -41,7 +41,7 @@ function TourOne() {
             <SwiperSlide key="tour1">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_1.jpg" alt="Seven Seals Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_1.jpg"} alt="Seven Seals Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -49,7 +49,7 @@ function TourOne() {
     href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Seals Messages</a>
+  >Revelation Messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -63,11 +63,11 @@ function TourOne() {
                     </Link>
                   </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">Seven Seals</span>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                    71 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
@@ -84,7 +84,7 @@ function TourOne() {
             <SwiperSlide key="tour2">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Seven Trumpets Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_2.jpg"} alt="Seven Trumpets Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -92,7 +92,7 @@ function TourOne() {
     href="https://www.youtube.com/watch?v=wfeqdLkL3MA&list=PLvDojcgf9-NYJPO-OgSBu6S1FSbSh2-88"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Trumpets Messages</a>
+  >Revelation Messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -106,12 +106,11 @@ function TourOne() {
                     </Link>
                   </div> */}
                    <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">Seven Trumpets </span>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
-                    </span>
+                      10 Epi                    </span>
                     <a 
     href="https://www.youtube.com/watch?v=wfeqdLkL3MA&list=PLvDojcgf9-NYJPO-OgSBu6S1FSbSh2-88"
     target="_blank"
@@ -126,7 +125,7 @@ function TourOne() {
             <SwiperSlide key="tour3">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_3.jpg" alt="Dubai Tour Package" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_3.jpg"} alt="Dubai Tour Package" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -134,7 +133,7 @@ function TourOne() {
     href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
     target="_blank"
     rel="noopener noreferrer"
-  >The Great Judgment</a>
+  >Revelation Messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -148,11 +147,11 @@ function TourOne() {
                     </Link>
                   </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">The Judgement</span>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                      Lorem.
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
@@ -168,7 +167,7 @@ function TourOne() {
             <SwiperSlide key="tour4">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Seven Churches messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -210,7 +209,7 @@ function TourOne() {
             <SwiperSlide key="tour5">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_1.jpg" alt="Seven Trumpets Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_1.jpg"} alt="Seven Trumpets Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -252,7 +251,7 @@ function TourOne() {
             <SwiperSlide key="tour6">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Seven Seals Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_2.jpg"} alt="Seven Seals Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -294,7 +293,7 @@ function TourOne() {
             <SwiperSlide key="tour7">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_3.jpg" alt="The Great Judgment" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_3.jpg"} alt="The Great Judgment" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -326,7 +325,7 @@ function TourOne() {
             <SwiperSlide key="tour8">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Seven Churches Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">

@@ -12,13 +12,13 @@ function AboutOne({ showFullContent }) {
                     <div className="col-xl-6">
                         <div className="img-box1 mb-20">
                             <div className="img1">
-                                <img src="/assets/img/normal/about_1_1.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_1.jpg"} alt="About" />
                             </div>
                             <div className="img2">
-                                <img src="/assets/img/normal/about_1_2.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_2.jpg"} alt="About" />
                             </div>
                             <div className="img3">
-                                <img src="/assets/img/normal/about_1_3.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_3.jpg"} alt="About" />
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function AboutOne({ showFullContent }) {
       <div className="about-item-wrap mt-10">
         <div className="about-item style2">
           <div className="about-item_img">
-            <img src="/assets/img/icon/about_1_1.svg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_1.svg"} alt="" />
           </div>
           <div className="about-item_centent">
             <h5 className="box-title">Lorem, ipsum.</h5>
@@ -56,7 +56,7 @@ function AboutOne({ showFullContent }) {
         </div>
         <div className="about-item style2">
           <div className="about-item_img">
-            <img src="/assets/img/icon/about_1_2.svg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_2.svg"} alt="" />
           </div>
           <div className="about-item_centent">
             <h5 className="box-title">Lorem, ipsum dolor.</h5>

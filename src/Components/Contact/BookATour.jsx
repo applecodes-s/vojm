@@ -14,7 +14,7 @@ function BookATour() {
     return (
         <div
             className="space-extra2-top space-extra2-bottom"
-            style={{ background: "url(/assets/img/bg/video_bg_1.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
+            style={{   backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/video_bg_1.jpg)`            , backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
         >
             <div className="container">
                 <div className="row flex-row-reverse justify-content-center align-items-center">
@@ -43,7 +43,7 @@ function BookATour() {
                                             placeholder="First Name"
                                             required
                                         />
-                                        <img src="assets/img/icon/user.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "assets/img/icon/user.svg"} alt="" />
                                     </div>
                                     <div className="col-12 form-group">
                                         <input
@@ -54,7 +54,7 @@ function BookATour() {
                                             placeholder="Your Mail"
                                             required
                                         />
-                                        <img src="assets/img/icon/mail.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "assets/img/icon/mail.svg"} alt="" />
                                     </div>
                                     <div className="col-12 form-group">
     <input
@@ -65,7 +65,7 @@ function BookATour() {
         placeholder="Your Phone"
         required
     />
-    <img src="assets/img/icon/phone.svg" alt="" />
+    <img src={process.env.PUBLIC_URL + "assets/img/icon/phone.svg"} alt="" />
 </div>
 
                                     {/* <div className="form-group col-12">
@@ -82,12 +82,12 @@ function BookATour() {
                                             placeholder="Your Message"
                                             defaultValue={""}
                                         />
-                                        <img src="assets/img/icon/chat.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "assets/img/icon/chat.svg"} alt="" />
                                     </div>
                                     <div className="form-btn col-12 mt-24">
                                         <button type="submit" className="th-btn style3">
                                             Send message
-                                            <img src="assets/img/icon/plane.svg" alt="" />
+                                            <img src={process.env.PUBLIC_URL + "assets/img/icon/plane.svg"} alt="" />
                                         </button>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ function BookATour() {
                 <iframe
                     width="100%"
                     height="400px"
-                    src="https://youtu.be/Qct0UiBMyaY?si=yBIUVOb8Vf3EfXEz"
+                    src={process.env.PUBLIC_URL + "https://youtu.be/Qct0UiBMyaY?si=yBIUVOb8Vf3EfXEz"}
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

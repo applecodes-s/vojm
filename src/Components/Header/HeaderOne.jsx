@@ -46,14 +46,14 @@ function HeaderOne() {
                                         <NiceSelect options={languageOptions} defaultValue="Language" />
                                     </div> */}
 
-                                    <div className="header-links">
+                                    {/* <div className="header-links">
                                         <ul>
-                                            {/* <li className="d-none d-md-inline-block">
+                                             <li className="d-none d-md-inline-block">
                                                 <Link to="/faq">FAQ</Link>
-                                            </li> */}
-                                            {/* <li className="d-none d-md-inline-block">
+                                            </li> 
+                                             <li className="d-none d-md-inline-block">
                                                 <Link to="/contact">Support</Link>
-                                            </li> */}
+                                            </li> 
                                             <li>
                                                 <button
                                                     type="button"
@@ -64,7 +64,7 @@ function HeaderOne() {
                                                 </button>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function HeaderOne() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="/assets/img/logo.png" alt="VOJM" />
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="VOJM" />
                                         </Link>
                                     </div>
                                 </div>
@@ -161,6 +161,14 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/contact">Contact us</Link>
                                             </li>
+                                            <li>
+                                            <a href="https://jvprophecy.vincentselvakumar.org/login" target="_blank" rel="noopener noreferrer">
+                                            Prophecies</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.vincentselvakumarbooks.com/bookstore" target="_blank" rel="noopener noreferrer">
+                                                Books 
+                                                </a> </li>
                                         </ul>
                                     </nav>
                                     <button

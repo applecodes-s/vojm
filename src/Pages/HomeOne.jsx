@@ -9,9 +9,6 @@ import TourOne from '../Components/Tour/TourOne'
 import GalleryOne from '../Components/Gallery/GalleryOne'
 import CounterOne from '../Components/Counter/CounterOne'
 import TourGuide from '../Components/Guide/TourGuide'
-import TestimonialOne from '../Components/Testimonials/TestimonialOne'
-import BrandOne from '../Components/Brand/BrandOne'
-import BlogOne from '../Components/Blog/BlogOne'
 import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 import BibleVerse from "../Components/bibleverse";
@@ -34,7 +31,7 @@ function HomeOne() {
             {/* <BlogOne /> */}
             <section className="bg-smoke"></section> 
             {/* Bible verse section */}
-            <BibleVerse />
+            {/* <BibleVerse /> */}
             <FooterOne />
             <ScrollToTop />
         </div>

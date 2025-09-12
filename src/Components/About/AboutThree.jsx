@@ -14,10 +14,10 @@ function AboutThree() {
                     <div className="col-xl-7">
                         <div className="img-box2">
                             <div className="img1">
-                                <img src="/assets/img/normal/about_2_1.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_2_1.jpg"} alt="About" />
                             </div>
                             <div className="img2">
-                                <img src="/assets/img/normal/about_2_2.jpg" alt="About" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_2_2.jpg"} alt="About" />
                                 <button className="play-btn" onClick={() => setModalIsOpen(true)}>
                                     <i className="fa-sharp fa-solid fa-play" />
                                 </button>
@@ -74,7 +74,7 @@ function AboutThree() {
                 <iframe
                     width="100%"
                     height="400px"
-                    src="https://www.youtube.com/embed/cQfIUPw72Dk"
+                    src={process.env.PUBLIC_URL + "https://www.youtube.com/embed/cQfIUPw72Dk"}
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

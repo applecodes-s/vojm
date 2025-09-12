@@ -9,16 +9,16 @@ const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Prophecy & End Times", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 2, title: "Revival", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 3, title: "Prayer", imgSrc: "/assets/img/category/category_1_3.jpg" },
-    { id: 4, title: "Youth Inspiration", imgSrc: "/assets/img/category/category_1_4.jpg" },
-    { id: 5, title: "Bible Study", imgSrc: "/assets/img/category/category_1_5.jpg" },
-    { id: 6, title: "Prophecy & End Times", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 7, title: "Revival", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 8, title: "Prayer", imgSrc: "/assets/img/category/category_1_3.jpg" },
-    { id: 9, title: "Youth Inspiration", imgSrc: "/assets/img/category/category_1_4.jpg" },
-    { id: 10, title: "Bible Study", imgSrc: "/assets/img/category/category_1_5.jpg" },
+    { id: 1, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg" },
+    { id: 2, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg" },
+    { id: 3, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg" },
+    { id: 4, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg" },
+    { id: 5, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg" },
+    { id: 6, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg" },
+    { id: 7, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg" },
+    { id: 8, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg" },
+    { id: 9, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg" },
+    { id: 10, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg" },
   ];
 
   useEffect(() => {
@@ -95,8 +95,12 @@ const CategoryOne = () => {
           }}
           spaceBetween={40}
           loop={true}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          speed={1000}
+          speed={1500}
+          autoplay={{
+            delay: 2000, // 👈 slide stays 4s before moving
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true, // 👈 better UX
+          }}
           pagination={{
             clickable: true,
             el: ".swiper-pagination",

@@ -6,6 +6,7 @@ import { Pagination, EffectFade, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
+import { Autoplay } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 function BannerOne() {
     const swiperRef = useRef(null);
@@ -43,10 +44,14 @@ function BannerOne() {
         <div className="th-hero-wrapper hero-1" id="hero">
 
             <Swiper
-                modules={[Navigation, Pagination, EffectFade]} // Initialize necessary modules
+                modules={[Navigation, Pagination, EffectFade, Autoplay]} // Initialize necessary modules
                 effect="fade" // Use fade effect
                 loop={true} // Enable loop
-                speed={1000}
+                speed={1500}
+                autoplay={{
+                    delay: 4000, // 👈 how long each slide stays (5s)
+                    disableOnInteraction: false,
+                 }}
                 pagination={{
                     el: ".swiper-pagination", // Custom pagination container
                     clickable: true, // Enable clickable pagination
@@ -64,7 +69,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_1.jpg)",
+                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_1.jpg)`,
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -92,12 +97,17 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.6s"
                                     >
-                                        <Link to="/tour" className="th-btn th-icon">
+                                        <Link to="/about" className="th-btn th-icon">
                                             About
                                         </Link>
-                                        <Link to="/service" className="th-btn style2 th-icon">
-                                            watch sermons
-                                        </Link>
+                                        <a 
+  href="https://www.youtube.com/@VincentSelvakumar" 
+  className="th-btn style2 th-icon" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Watch Sermons
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +118,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_2.jpg)", 
+                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_2.jpg)`, 
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -134,10 +144,10 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.6s"
                                     >
-                                        <Link to="/tour" className="th-btn th-icon">
+                                        <Link to="/" className="th-btn th-icon">
                                         View Events
                                         </Link>
-                                        <Link to="/service" className="th-btn style2 th-icon">
+                                        <Link to="/contact" className="th-btn style2 th-icon">
                                         Contact Us
                                         </Link>
                                     </div>
@@ -150,7 +160,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: "url(/assets/img/hero/hero_bg_1_3.jpg)",
+                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_3.jpg)`,
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -176,10 +186,10 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.6s"
                                     >
-                                        <Link to="/tour" className="th-btn th-icon">
-                                            Explore Tours
+                                        <Link to="/" className="th-btn th-icon">
+                                            Explore 
                                         </Link>
-                                        <Link to="/service" className="th-btn style2 th-icon">
+                                        <Link to="/" className="th-btn style2 th-icon">
                                             Our Services
                                         </Link>
                                     </div>
@@ -193,14 +203,14 @@ function BannerOne() {
                         className="slider-arrow slider-prev"
                         onClick={() => handleSliderNavigation("prev")}
                     >
-                        <img src="/assets/img/icon/right-arrow.svg" alt="Prev" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/right-arrow.svg"} alt="Prev" />
                     </button>
                     <div className="swiper-pagination" /> {/* Pagination container */}
                     <button
                         className="slider-arrow slider-next"
                         onClick={() => handleSliderNavigation("next")}
                     >
-                        <img src="/assets/img/icon/left-arrow.svg" alt="Next" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/left-arrow.svg"} alt="Next" />
                     </button>
                 </div>
             </Swiper>

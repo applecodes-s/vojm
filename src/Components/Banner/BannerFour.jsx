@@ -31,7 +31,7 @@ function BannerFour() {
                         left: "-9%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_1.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_1.png"} alt="shape" />
                 </div>
                 <div className="shape-mockup shape2"
                     style={{
@@ -39,7 +39,7 @@ function BannerFour() {
                         left: "-10%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_2.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_2.png"} alt="shape" />
                 </div>
                 <div className="shape-mockup shape3"
                     style={{
@@ -47,7 +47,7 @@ function BannerFour() {
                         left: "-16%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_3.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_3.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup spin d-none d-lg-block"
@@ -56,7 +56,7 @@ function BannerFour() {
                         right: "-16%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_10.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_10.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup d-none d-xl-block"
@@ -65,7 +65,7 @@ function BannerFour() {
                         right: "-20%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_11.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_11.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup spin d-none d-lg-block"
@@ -74,7 +74,7 @@ function BannerFour() {
                         right: "10%",
                     }}
                 >
-                    <img src="/assets/img/shape/shape_12.png" alt="shape" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_12.png"} alt="shape" />
                 </div>
             </div>
         </div>

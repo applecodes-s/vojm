@@ -116,7 +116,7 @@ function BannerThree() {
                     <div className="hero-inner">
                         {/* Video Background */}
                         <video autoPlay loop muted playsInline className="hero-video">
-                            <source src="/assets/img/hero/hero-video3.mp4" type="video/mp4" />
+                            <source src={process.env.PUBLIC_URL + "/assets/img/hero/hero-video3.mp4"} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 
@@ -145,11 +145,11 @@ function BannerThree() {
                         <div className="col-lg-4">
                             <div className="hero3-swiper-custom">
                                 <button className="swiper-button-next">
-                                    <img src="/assets/img/icon/hero-arrow-right.svg" alt="Next" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/icon/hero-arrow-right.svg"} alt="Next" />
                                 </button>
                                 <div className="slider-pagination" />
                                 <button className="swiper-button-prev">
-                                    <img src="/assets/img/icon/hero-arrow-left.svg" alt="Prev" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/icon/hero-arrow-left.svg"} alt="Prev" />
                                 </button>
                             </div>
 
@@ -215,7 +215,7 @@ function BannerThree() {
                                             </div>
                                             <div className="form-btn col-md-6 col-xl-auto">
                                                 <button className="th-btn" type='submit'>
-                                                    <img src="/assets/img/icon/search.svg" alt="" />
+                                                    <img src={process.env.PUBLIC_URL + "/assets/img/icon/search.svg"} alt="" />
                                                     Search
                                                 </button>
                                             </div>
@@ -231,7 +231,7 @@ function BannerThree() {
             <div className="scroll-down">
                 <Link to="/#destination-sec" onClick={handleScroll} className="scroll-wrap">
                     <span>
-                        <img src="/assets/img/icon/down-arrow.svg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/down-arrow.svg"} alt="" />
                     </span>
                     Scroll Down
                 </Link>

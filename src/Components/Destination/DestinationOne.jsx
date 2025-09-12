@@ -9,35 +9,35 @@ const destinations = [
     id: 1,
     name: "Christian Living",
     listings: 9,
-    image: "/assets/img/destination/destination_1_1.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/destination/destination_1_1.jpg",
     link: "https://www.youtube.com/watch?v=UJNwgXCZZ00&list=PLvDojcgf9-NZvDiFGhTmDtRiMGm0Akpbi"
   },
   {
     id: 2,
     name: "Apostolic Ministry",
     listings: 7,
-    image: "/assets/img/destination/destination_1_2.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/destination/destination_1_2.jpg",
     link: "https://www.youtube.com/watch?v=tUaYAymi-Lc&list=PLvDojcgf9-NbQ6isWSA46tdyhTEJU8t4h"
   },
   {
     id: 3,
     name: "Biblical History",
     listings: 8,
-    image: "/assets/img/destination/destination_1_3.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/destination/destination_1_3.jpg",
     link: "https://www.youtube.com/watch?v=pEEzYW1ZWWI&list=PLvDojcgf9-NZCdTs7g9c1jt-QJj7iZ6FG"
   },
   {
     id: 4,
     name: "One World",
     listings: 17,
-    image: "/assets/img/destination/destination_1_4.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/destination/destination_1_4.jpg",
     link: "https://www.youtube.com/watch?v=MaExggwJImE&list=PLvDojcgf9-NYi_eNz0DiTRVOwek-QOLJu"
   },
   {
     id: 5,
     name: "Corona Virus",
     listings: 17,
-    image: "/assets/img/destination/destination_1_5.jpg",
+    image: process.env.PUBLIC_URL +"/assets/img/destination/destination_1_5.jpg",
     link: "https://www.youtube.com/watch?v=vE5iy_HeP6M&list=PLvDojcgf9-NZ-n2irrfHZpiBCBai_HeGP"
   }
 ];

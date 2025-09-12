@@ -44,7 +44,7 @@ function ContactOne() {
                                             id="name3"
                                             placeholder="First Name"
                                         />
-                                        <img src="/assets/img/icon/user.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/user.svg"} alt="" />
                                     </div>
                                     <div className="form-group col-12">
                                         <input
@@ -54,7 +54,7 @@ function ContactOne() {
                                             id="email3"
                                             placeholder="Your Mail"
                                         />
-                                        <img src="/assets/img/icon/mail.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/mail.svg"} alt="" />
                                     </div>
                                     <div className="form-group col-12">
                                         <NiceSelect
@@ -75,7 +75,7 @@ function ContactOne() {
                                             placeholder="Your Message"
                                             defaultValue={""}
                                         />
-                                        <img src="/assets/img/icon/chat.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/chat.svg"} alt="" />
                                     </div>
                                 </div>
                                 <p className="form-messages mb-0 mt-3" />
@@ -83,7 +83,7 @@ function ContactOne() {
                             <div className="form-btn-wrapp">
                                 <div className="form-btn">
                                     <button className="th-btn white-btn">
-                                        Send Message <img src="/assets/img/icon/plane3.svg" alt="" />
+                                        Send Message <img src={process.env.PUBLIC_URL + "/assets/img/icon/plane3.svg"} alt="" />
                                     </button>
                                 </div>
                                 <div className="contact-info">
@@ -92,7 +92,7 @@ function ContactOne() {
                                     </p>
                                     <div className="contact-info_icon">
                                         <Link to="tel:+0123456789">
-                                            <img src="/assets/img/icon/call.svg" alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/icon/call.svg"} alt="" />
                                         </Link>
                                     </div>
                                 </div>
