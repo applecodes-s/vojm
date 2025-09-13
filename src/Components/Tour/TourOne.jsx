@@ -19,7 +19,7 @@ function TourOne() {
               <span className="sub-title">Deep spiritual teachings from the Word of God</span>
               <h2 className="sec-title">Biblical Insights Playlist</h2>
               <p className="sec-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Discover the mysteries of Revelation through the prophetic sermons of Prophet Vincent Selvakumaar.
               </p>
             </div>
           </div>
@@ -64,6 +64,9 @@ function TourOne() {
                   </div> */}
                   <h4 className="tour-box_price">
                     <span className="currency">Seven Seals</span>
+                    <p className="sec-text text-black">
+                    Unveiling Heaven’s Hidden Mysteries
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
@@ -107,6 +110,9 @@ function TourOne() {
                   </div> */}
                    <h4 className="tour-box_price">
                     <span className="currency">Seven Trumpets </span>
+                    <p className="sec-text text-black">
+                    Unveiling Heaven’s Hidden Mysteries
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
@@ -148,10 +154,13 @@ function TourOne() {
                   </div> */}
                   <h4 className="tour-box_price">
                     <span className="currency">The Judgement</span>
+                    <p className="sec-text text-black">
+                    Standing Before God’s Throne 
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      Lorem.
+                      10 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
@@ -175,7 +184,7 @@ function TourOne() {
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Churches messages</a>
+  >Revelation messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -189,11 +198,14 @@ function TourOne() {
                     </Link>
                   </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">Seven Churches </span>
+                    <p className="sec-text text-black">
+                    Churches Judged by the Lord
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                      <i className="fa-light fa-clock" />20 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"
@@ -206,18 +218,18 @@ function TourOne() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide key="tour5">
+            <SwiperSlide key="tour1">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_1.jpg"} alt="Seven Trumpets Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_1.jpg"} alt="Seven Seals Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
                   <a 
-    href="https://www.youtube.com/watch?v=wfeqdLkL3MA&list=PLvDojcgf9-NYJPO-OgSBu6S1FSbSh2-88"
+    href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Trumpets Messages</a>
+  >Revelation Messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -231,12 +243,60 @@ function TourOne() {
                     </Link>
                   </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">Seven Seals</span>
+                    <p className="sec-text text-black">
+                    Unveiling Heaven’s Hidden Mysteries
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                    71 Epi
                     </span>
+                    <a 
+    href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="th-btn style4 th-icon"
+  >
+                      Watch Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide key="tour2">
+              <div className="tour-box th-ani gsap-cursor">
+                <div className="tour-box_img global-img">
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_2.jpg"} alt="Seven Trumpets Messages" />
+                </div>
+                <div className="tour-content">
+                  <h3 className="box-title">
+                  <a 
+    href="https://www.youtube.com/watch?v=wfeqdLkL3MA&list=PLvDojcgf9-NYJPO-OgSBu6S1FSbSh2-88"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Revelation Messages</a>
+                  </h3>
+                  {/* <div className="tour-rating">
+                    <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                      <span style={{ width: '100%' }}>
+                        Rated <strong className="rating">5.00</strong> out of 5 based on{' '}
+                        <span className="rating">4.8</span> (4.8 Rating)
+                      </span>
+                    </div>
+                    <Link to="/tour-details" className="woocommerce-review-link">
+                      (<span className="count">4.8</span> Rating)
+                    </Link>
+                  </div> */}
+                   <h4 className="tour-box_price">
+                    <span className="currency">Seven Trumpets </span>
+                    <p className="sec-text text-black">
+                    Unveiling Heaven’s Hidden Mysteries
+              </p>
+                  </h4>
+                  <div className="tour-action">
+                    <span>
+                      10 Epi                    </span>
                     <a 
     href="https://www.youtube.com/watch?v=wfeqdLkL3MA&list=PLvDojcgf9-NYJPO-OgSBu6S1FSbSh2-88"
     target="_blank"
@@ -248,18 +308,18 @@ function TourOne() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide key="tour6">
+            <SwiperSlide key="tour3">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_2.jpg"} alt="Seven Seals Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_3.jpg"} alt="Dubai Tour Package" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
                   <a 
-    href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
+    href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Seals Messages</a>
+  >Revelation Messages</a>
                   </h3>
                   {/* <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -273,43 +333,14 @@ function TourOne() {
                     </Link>
                   </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">The Judgement</span>
+                    <p className="sec-text text-black">
+                    Standing Before God’s Throne 
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
-                    </span>
-                    <a 
-    href="https://www.youtube.com/watch?v=WIrXa37er-I&list=PLvDojcgf9-NbvI-3r3q5s1DVrqGA-V8_M"
-    target="_blank"
-    rel="noopener noreferrer"
-   className="th-btn style4 th-icon">
-                      Watch Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide key="tour7">
-              <div className="tour-box th-ani gsap-cursor">
-                <div className="tour-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_3.jpg"} alt="The Great Judgment" />
-                </div>
-                <div className="tour-content">
-                  <h3 className="box-title">
-                  <a 
-    href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
-    target="_blank"
-    rel="noopener noreferrer"
-  >The Great Judgment</a>
-                  </h3>
-              
-                  <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
-                  </h4>
-                  <div className="tour-action">
-                    <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                      10 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=wnnU3_UIrZw&list=PLvDojcgf9-NYkmvtX_juKrzgIbZi6JcyZ"
@@ -322,10 +353,10 @@ function TourOne() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide key="tour8">
+            <SwiperSlide key="tour4">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches Messages" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -333,21 +364,34 @@ function TourOne() {
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"
     target="_blank"
     rel="noopener noreferrer"
-  >Seven Churches Messages</a>
+  >Revelation messages</a>
                   </h3>
-                 
+                  {/* <div className="tour-rating">
+                    <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                      <span style={{ width: '100%' }}>
+                        Rated <strong className="rating">5.00</strong> out of 5 based on{' '}
+                        <span className="rating">4.8</span> (4.8 Rating)
+                      </span>
+                    </div>
+                    <Link to="/tour-details" className="woocommerce-review-link">
+                      (<span className="count">4.8</span> Rating)
+                    </Link>
+                  </div> */}
                   <h4 className="tour-box_price">
-                    <span className="currency">Lorem, ipsum.</span>Lorem.
+                    <span className="currency">Seven Churches </span>
+                    <p className="sec-text text-black">
+                    Churches Judged by the Lord
+              </p>
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />Lorem.
+                      <i className="fa-light fa-clock" />20 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"
     target="_blank"
     rel="noopener noreferrer"
-  className="th-btn style4 th-icon">
+   className="th-btn style4 th-icon">
                       Watch Now
                     </a>
                   </div>

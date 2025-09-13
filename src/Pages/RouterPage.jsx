@@ -11,6 +11,8 @@ import TourGuide from './TourGuide'
 import Pricing from './Pricing'
 import Error from './Error'
 import Contact from './Contact'
+import GalleryDetail from './GalleryDetail'
+
 function RouterPage() {
   return (
     <div>
@@ -21,6 +23,7 @@ function RouterPage() {
           <Route path="/destination" element={<Destination />}></Route>
           <Route path="/service" element={<Service />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
+          <Route path="/gallery/:id" element={<GalleryDetail />}></Route>
           <Route path="/tour" element={<Tour />}></Route>
           <Route path="/tour-guide" element={<TourGuide />}></Route>
           <Route path="/price" element={<Pricing />}></Route>

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow } from "swiper/modules";
+import { EffectCoverflow, Navigation} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
+import "swiper/css/navigation";
+
 
 const destinations = [
   {
@@ -43,7 +45,7 @@ const destinations = [
 ];
 
 const sliderOptions = {
-  modules: [EffectCoverflow],
+  modules: [EffectCoverflow, Navigation],
   effect: "coverflow",
   centeredSlides: true,
   slidesPerView: 5,
@@ -56,6 +58,10 @@ const sliderOptions = {
     stretch: 95,
     depth: 212,
     modifier: 1
+  },
+  navigation: {
+    nextEl: ".slider-next",
+    prevEl: ".slider-prev"
   },
   breakpoints: {
     0: { slidesPerView: 1 },
@@ -144,6 +150,22 @@ function DestinationOne() {
               </SwiperSlide>
             ))}
           </Swiper>
+          <div className="th-swiper-custom">
+  {/* <button className="slider-arrow slider-prev">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/icon/left-arrow.svg"}
+      alt="Prev"
+    />
+  </button>
+
+  <button className="slider-arrow slider-next">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/icon/right-arrow.svg"}
+      alt="Next"
+    />
+  </button> */}
+</div>
+
         </div>
       </div>
     </div>

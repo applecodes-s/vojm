@@ -130,14 +130,14 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
-                                        Join Our Upcoming 
+                                       Spiritual Books
                                     </span>
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        Prophetic Gathering{" "}
+                                        New Release{" "}
                                     </h1>
                                     <div
                                         className="btn-group"
@@ -172,14 +172,14 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
-                                       Lorem ipsum dolor sit amet consectetur adipisicing.
+                                       Strengthening Believers Through God’s Word
                                     </span>
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        Lorem, ipsum dolor.{" "}
+                                       The Pulpit of Christian Living{" "}
                                     </h1>
                                     <div
                                         className="btn-group"

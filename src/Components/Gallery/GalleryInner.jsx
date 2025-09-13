@@ -21,66 +21,99 @@ function GalleryInner() {
         <div className="overflow-hidden space" id="gallery-sec">
             <div className="container-fuild">
                 <div className="title-area mb-30 text-center">
-                    <span className="sub-title">Explore Us</span>
+                    <span className="sub-title">Explore Us inner</span>
                     <h2 className="sec-title">A truly exceptional experience</h2>
                 </div>
                 <div className="row gy-4 gallery-row4">
-                    <div className="col-auto">
-                        <div className="gallery-box style5">
-                            <div className="gallery-img global-img">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"} alt="gallery" />
-                                <Link
-                                    to="assets/img/gallery/gallery_8_1.jpg"
-                                    className="icon-btn popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_8_1.jpg', e)}
-                                >
-                                    <i className="fal fa-magnifying-glass-plus" />
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto">
-                        <div className="gallery-box style5">
-                            <div className="gallery-img global-img">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_2.jpg"} alt="gallery" />
-                                <Link
-                                    to="assets/img/gallery/gallery_8_2.jpg"
-                                    className="icon-btn popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_8_2.jpg', e)}
-                                >
-                                    <i className="fal fa-magnifying-glass-plus" />
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto">
-                        <div className="gallery-box style5">
-                            <div className="gallery-img global-img">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_3.jpg"} alt="gallery" />
-                                <Link
-                                    to="assets/img/gallery/gallery_8_3.jpg"
-                                    className="icon-btn popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_8_3.jpg', e)}
-                                >
-                                    <i className="fal fa-magnifying-glass-plus" />
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto">
-                        <div className="gallery-box style5">
-                            <div className="gallery-img global-img">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_4.jpg"} alt="gallery" />
-                                <Link
-                                    to="assets/img/gallery/gallery_8_4.jpg"
-                                    className="icon-btn popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_8_4.jpg', e)}
-                                >
-                                    <i className="fal fa-magnifying-glass-plus" />
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-auto">
+  <div className="gallery-box style5 text-center">
+    <div className="gallery-img global-img">
+      <Link to="/gallery/event1">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
+          alt="gallery"
+          className="img-fluid rounded"
+        />
+      </Link>
+      <Link to="/gallery/event1" className="icon-btn">
+        <i className="fal fa-magnifying-glass-plus" />
+      </Link>
+    </div>
+    <h5 className="mt-2 text-center">
+      <Link to="/gallery/event1" className="text-dark">
+        Beach Adventure
+      </Link>
+    </h5>
+  </div>
+</div>
+
+
+<div className="col-auto">
+  <div className="gallery-box style5 text-center">
+    <div className="gallery-img global-img">
+      <Link to="/gallery/event2">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
+          alt="gallery"
+          className="img-fluid rounded"
+        />
+      </Link>
+      <Link to="/gallery/event2" className="icon-btn">
+        <i className="fal fa-magnifying-glass-plus" />
+      </Link>
+    </div>
+    <h5 className="mt-2 text-center">
+      <Link to="/gallery/event2" className="text-dark">
+        Beach Adventure
+      </Link>
+    </h5>
+  </div>
+</div>
+
+<div className="col-auto">
+  <div className="gallery-box style5 text-center">
+    <div className="gallery-img global-img">
+      <Link to="/gallery/event3">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
+          alt="gallery"
+          className="img-fluid rounded"
+        />
+      </Link>
+      <Link to="/gallery/event3" className="icon-btn">
+        <i className="fal fa-magnifying-glass-plus" />
+      </Link>
+    </div>
+    <h5 className="mt-2 text-center">
+      <Link to="/gallery/event3" className="text-dark">
+        Beach Adventure
+      </Link>
+    </h5>
+  </div>
+</div>
+
+<div className="col-auto">
+  <div className="gallery-box style5 text-center">
+    <div className="gallery-img global-img">
+      <Link to="/gallery/event4">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
+          alt="gallery"
+          className="img-fluid rounded"
+        />
+      </Link>
+      <Link to="/gallery/event4" className="icon-btn">
+        <i className="fal fa-magnifying-glass-plus" />
+      </Link>
+    </div>
+    <h5 className="mt-2 text-center">
+      <Link to="/gallery/event4" className="text-dark">
+        Beach Adventure
+      </Link>
+    </h5>
+  </div>
+</div>
+
                     <div className="col-auto">
                         <div className="gallery-box style5">
                             <div className="gallery-img global-img">

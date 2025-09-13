@@ -10,17 +10,30 @@ function AboutOne({ showFullContent }) {
             <div className="container shape-mockup-wrap">
                 <div className="row">
                     <div className="col-xl-6">
-                        <div className="img-box1 mb-20">
-                            <div className="img1">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_1.jpg"} alt="About" />
-                            </div>
-                            <div className="img2">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_2.jpg"} alt="About" />
-                            </div>
-                            <div className="img3">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_3.jpg"} alt="About" />
-                            </div>
-                        </div>
+                    <div className="img-box1 mb-20 relative">
+  <div className="img1">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_1.jpg"}
+      alt="About"
+      className="rounded-[30%]"
+    />
+  </div>
+  <div className="img2 pl-8 ml-12 mb-8">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_2.jpg"}
+      alt="About"
+      className="rounded-full"
+    />
+  </div>
+  <div className="img3 ml-8 mt-2">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_3.jpg"}
+      alt="About"
+      className="rounded-full"
+    />
+  </div>
+</div>
+
                     </div>
 
                     <div className="col-xl-6">
@@ -39,10 +52,17 @@ function AboutOne({ showFullContent }) {
                                     During his college days, he was addicted not only to drugs but also to smoking. Added to this, he was also an atheist.
                                 </p>
 
+                                <p>
+                                            After having completed over three decades of full-time ministry, the Lord God called and made a covenant.
+                                            The Lord commanded Brother Vincent Selvakumaar to abandon all his ministerial and other worldly responsibilities.
+                                            The Lord wanted the full time of Brother to be dedicated to hear the end-time revelations and other hidden
+                                            mysteries and secrets. As a mark of allegiance to the commandment of God...
+                                        </p>
+
                                 {!showFullContent && (
     <>
       {/* About Items - Only for Home */}
-      <div className="about-item-wrap mt-10">
+      {/* <div className="about-item-wrap mt-10">
         <div className="about-item style2">
           <div className="about-item_img">
             <img src={process.env.PUBLIC_URL + "/assets/img/icon/about_1_1.svg"} alt="" />
@@ -65,7 +85,7 @@ function AboutOne({ showFullContent }) {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )} 
                                 {showFullContent ? (
