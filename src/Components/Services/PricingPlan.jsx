@@ -6,7 +6,7 @@ function PricingPlan({className}) {
         <section className={`position-relative ${className}`}>
             <div className="container shape-mockup-wrap">
                 <div className="title-area text-center">
-                    <span className="sub-title">Lorem, ipsum.</span>
+                    {/* <span className="sub-title">Lorem, ipsum.</span> */}
                     <h2 className="sec-title">Support Us with Your Donation</h2>
                 </div>
                 <div className="row gy-4 justify-content-center">
@@ -14,14 +14,14 @@ function PricingPlan({className}) {
                         <div className="price-card ">
                             {/* <div className="offer-tag">Popular</div> */}
                             <div className="price-card_wrapp">
-                                <div className="price-card_icon">
+                                {/* <div className="price-card_icon">
                                     <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_1.svg"} alt="img" />
-                                </div>
+                                </div> */}
                                 <h3 className="box-title">AXIS Bank</h3>
                             </div>
                             <div className="price-card_content">
                                 {/* <h4 className="price-card_price">
-                                    Bank Transfer Details
+                                     Bank Transfer Details
                                 </h4> */}
                                 {/* <p className="price-card_text">
                                     Essential services for basic and signle person seeking.
@@ -30,11 +30,19 @@ function PricingPlan({className}) {
                                     <ul>
                                     <li><strong>Bank Name:</strong> AXIS Bank</li>
                                     <li><strong>Account Name:</strong> Vincent Selvakumar</li>
-                                    <li><strong>Account Number:</strong> 1234567890</li>
-                                    <li><strong>IFSC Code:</strong> ABCD0123456</li>
-                                    <li><strong>Branch:</strong> ABCD0123456</li>
+                                    <li><strong>Account Number:</strong> 9100 1002 2737 183</li>
+                                    <li><strong>IFSC Code:</strong> UTIB0001080</li>
+                                    <li><strong>Branch:</strong> Ramanathapuram, TN</li>
                                     </ul>
                                 </div>
+                                <div className="qr-code mt-3 text-center">
+
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/qr.png"}
+      alt="AXIS Bank QR"
+      style={{ maxWidth: "150px" }}
+    />
+  </div>
                             </div>
                             <div className="price-btn">
                                 <Link to="/contact" className="th-btn style3 w-100">
@@ -47,9 +55,9 @@ function PricingPlan({className}) {
                         <div className="price-card ">
                             {/* <div className="offer-tag">Popular</div> */}
                             <div className="price-card_wrapp">
-                                <div className="price-card_icon">
+                                {/* <div className="price-card_icon">
                                     <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_1.svg"} alt="img" />
-                                </div>
+                                </div> */}
                                 <h3 className="box-title">ICICI Bank</h3>
                             </div>
                             <div className="price-card_content">
@@ -61,13 +69,20 @@ function PricingPlan({className}) {
                                 </p> */}
                                 <div className="checklist">
                                     <ul>
-                                    <li><strong>Bank Name:</strong> AXIS Bank</li>
+                                    <li><strong>Bank Name:</strong> ICICI Bank</li>
                                     <li><strong>Account Name:</strong> Vincent Selvakumar</li>
-                                    <li><strong>Account Number:</strong> 1234567890</li>
-                                    <li><strong>IFSC Code:</strong> ABCD0123456</li>
-                                    <li><strong>Branch:</strong> ABCD0123456</li>
+                                    <li><strong>Account Number:</strong> 02960 100 3735</li>
+                                    <li><strong>IFSC Code:</strong> ICIC0000296</li>
+                                    <li><strong>Branch:</strong> Rajajinagar, Bangalore</li>
                                     </ul>
                                 </div>
+                                <div className="qr-code mt-3 text-center">
+    <img
+      src={process.env.PUBLIC_URL + "/assets/img/qr.png"}
+      alt="AXIS Bank QR"
+      style={{ maxWidth: "150px" }}
+    />
+  </div>
                             </div>
                             <div className="price-btn">
                                 <Link to="/contact" className="th-btn style3 w-100">
