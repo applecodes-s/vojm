@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+
 import { Link } from "react-router-dom";
 
 const CategoryOne = () => {
@@ -95,9 +96,9 @@ const CategoryOne = () => {
           }}
           spaceBetween={40}
           loop={true}
-          speed={1500}
+          speed={500}
           autoplay={{
-            delay: 2000, // 👈 slide stays 4s before moving
+            delay: 500, // 👈 slide stays 4s before moving
             disableOnInteraction: false,
             pauseOnMouseEnter: true, // 👈 better UX
           }}
@@ -106,6 +107,7 @@ const CategoryOne = () => {
             el: ".swiper-pagination",
             type: "bullets"
           }} // ✅ Defined renderBullet inside pagination
+       
           className="th-slider has-shadow categorySlider"
         >
           {categories.map((category) => (
@@ -128,9 +130,14 @@ const CategoryOne = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="slider-controller w-100 justify-content-center">
-            <div className="swiper-pagination" style={{maxWidth:"100%"}}></div>
-          </div>
+
+
+  {/* Pagination */}
+  <div className="slider-controller w-100 justify-content-center">
+  <div className="swiper-pagination"></div>
+</div>
+
+
         </Swiper>
 
       </div>

@@ -56,7 +56,7 @@ function MobileMenu({ isOpen, onClose }) {
 
                         {/* About Us */}
                         <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/gallery">Gallery test</Link></li>
+                        {/* <li><Link to="/gallery">Gallery test</Link></li> */}
 
             
 

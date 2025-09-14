@@ -3,7 +3,7 @@ const galleryData = [
     id: "event1",
     title: "Beach Adventure",
     images: [
-      "/assets/img/gallery/gallery_8_1.jpg",
+`${process.env.PUBLIC_URL}/assets/img/events/Event1/02.jpg`,
       "/assets/img/gallery/gallery_8_2.jpg",
       "/assets/img/gallery/gallery_8_3.jpg"
     ]

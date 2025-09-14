@@ -1,35 +1,62 @@
 import React from 'react'
+import  { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 function FooterOne() {
+    const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+    setError(''); // reset error while typing
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Basic email validation
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!email) {
+      setError('Email is required');
+    } else if (!emailRegex.test(email)) {
+      setError('Please enter a valid email');
+    } else {
+      setError('');
+      alert('Subscribed successfully ✅');
+      setEmail('');
+      // Here you can send the email to your backend or API
+    }
+  };
     return (
         <footer className="footer-wrapper footer-layout1">
             <div className="widget-area">
                 <div className="container">
-                    <div className="newsletter-area">
-                        <div className="newsletter-top">
-                            <div className="row gy-4 align-items-center">
-                                <div className="col-lg-5">
-                                    <h2 className="newsletter-title text-capitalize mb-0">
-                                    Get Updated with the Latest Books & Sermons!
-                                    </h2>
-                                </div>
-                                <div className="col-lg-7">
-                                    <form className="newsletter-form">
-                                        <input
-                                            className="form-control "
-                                            type="email"
-                                            placeholder="Enter Email"
-                                            required=""
-                                        />
-                                        <button type="submit" className="th-btn style3">
-                                            Subscribe Now <img src={process.env.PUBLIC_URL + "/assets/img/icon/plane.svg"} alt="" />
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="newsletter-area">
+      <div className="newsletter-top">
+        <div className="row gy-4 align-items-center">
+          <div className="col-lg-5">
+            <h2 className="newsletter-title text-capitalize mb-0">
+              Get Updated with the Latest Books & Sermons!
+            </h2>
+          </div>
+          <div className="col-lg-7">
+            <form className="newsletter-form" onSubmit={handleSubmit}>
+              <input
+                className="form-control"
+                type="email"
+                placeholder="Enter Email"
+                value={email}
+                onChange={handleChange}
+              />
+              <button type="submit" className="th-btn style3">
+                Subscribe Now{' '}
+                <img src={process.env.PUBLIC_URL + '/assets/img/icon/plane.svg'} alt="" />
+              </button>
+              {error && <p className="error-text">{error}</p>}
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
                     <div className="row justify-content-between">
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
@@ -40,8 +67,7 @@ function FooterOne() {
                                         </Link>
                                     </div>
                                     <p className="about-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                         Eligendi enim non laborum amet consequatur fugit perferendis temporibuss.
+                                    Official website of Prophet Vincent Selvakumaar. The vision is to raise prophets who stand in holiness, prayer, and revelation for God’s glory.
                                     </p>
                                     <div className="th-social">
     <a href="https://www.facebook.com/vincentselvakumar.org/" target="_blank" rel="noopener noreferrer">
@@ -116,7 +142,7 @@ function FooterOne() {
                                                     to="mailto:vojmedia@gmail.com"
                                                     className="info-box_link"
                                                 >
-                                                    vojmedia@gmail.com
+                                                    prayers@vincentselvakumaar.org
                                                 </Link>
                                             </p>
                                             <p>
@@ -142,7 +168,7 @@ function FooterOne() {
                         </div>
                         <div className="col-md-6 col-xl-auto">
                             <div className="widget footer-widget">
-                                <h3 className="widget_title">Instagram Post</h3>
+                                <h3 className="widget_title">Latest Releases</h3>
                                 <div className="sidebar-gallery">
                                     <div className="gallery-thumb">
                                     <a
@@ -266,9 +292,9 @@ function FooterOne() {
                         </div>
                         <div className="col-md-6 text-end d-none d-md-block">
                             <div className="footer-card">
-                            <p className="copyright-text">
+                            {/* <p className="copyright-text">
                                 made width  ❤️ from VOJM
-                            </p>
+                            </p> */}
                                 {/* <span className="title">We Accept</span> */}
                                 {/* <img src={process.env.PUBLIC_URL + "/assets/img/shape/cards.png" alt="" /> */}
                             </div>

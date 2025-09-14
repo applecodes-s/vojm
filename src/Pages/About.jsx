@@ -17,10 +17,10 @@ function About() {
                 title="About"
             />
             <AboutOne showFullContent={true} />
-            <TourGuide />
-            <section className="bg-smoke"> </section> 
+            <TourGuide className="space-bottom" />
+            <section className="bg-smoke "> </section> 
             {/* Bible verse section */}
-            <BibleVerse className="space-bottom"/>
+            {/* <BibleVerse className="space-bottom"/> */}
             <GalleryOne />
             <FooterFour />
             <ScrollToTop />

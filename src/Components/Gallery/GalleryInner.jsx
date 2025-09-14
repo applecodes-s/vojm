@@ -21,7 +21,7 @@ function GalleryInner() {
         <div className="overflow-hidden space" id="gallery-sec">
             <div className="container-fuild">
                 <div className="title-area mb-30 text-center">
-                    <span className="sub-title">Explore Us inner</span>
+                    <span className="sub-title">Explore Us</span>
                     <h2 className="sec-title">A truly exceptional experience</h2>
                 </div>
                 <div className="row gy-4 gallery-row4">
@@ -30,7 +30,7 @@ function GalleryInner() {
     <div className="gallery-img global-img">
       <Link to="/gallery/event1">
         <img
-          src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
+          src={process.env.PUBLIC_URL + "/assets/img/events/Event1/01.jpg"}
           alt="gallery"
           className="img-fluid rounded"
         />
@@ -95,19 +95,19 @@ function GalleryInner() {
 <div className="col-auto">
   <div className="gallery-box style5 text-center">
     <div className="gallery-img global-img">
-      <Link to="/gallery/event4">
+      <Link to="/gallery/event1">
         <img
           src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_8_1.jpg"}
           alt="gallery"
           className="img-fluid rounded"
         />
       </Link>
-      <Link to="/gallery/event4" className="icon-btn">
+      <Link to="/gallery/event1" className="icon-btn">
         <i className="fal fa-magnifying-glass-plus" />
       </Link>
     </div>
     <h5 className="mt-2 text-center">
-      <Link to="/gallery/event4" className="text-dark">
+      <Link to="/gallery/event1" className="text-dark">
         Beach Adventure
       </Link>
     </h5>

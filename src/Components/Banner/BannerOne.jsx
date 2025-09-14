@@ -47,9 +47,9 @@ function BannerOne() {
                 modules={[Navigation, Pagination, EffectFade, Autoplay]} // Initialize necessary modules
                 effect="fade" // Use fade effect
                 loop={true} // Enable loop
-                speed={1500}
+                speed={2000}
                 autoplay={{
-                    delay: 4000, // 👈 how long each slide stays (5s)
+                    delay: 3000, // 👈 how long each slide stays (5s)
                     disableOnInteraction: false,
                  }}
                 pagination={{
@@ -137,19 +137,23 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        New Release{" "}
+                                        New Release -{"Tamil & English"}
                                     </h1>
                                     <div
                                         className="btn-group"
                                         data-ani="slideinup"
                                         data-ani-delay="0.6s"
-                                    >
-                                        <Link to="/" className="th-btn th-icon">
-                                        View Events
-                                        </Link>
-                                        <Link to="/contact" className="th-btn style2 th-icon">
-                                        Contact Us
-                                        </Link>
+                                    >  <Link to="/about" className="th-btn th-icon">
+                                    About
+                                </Link>
+                                        <a
+  href="https://www.vincentselvakumarbooks.com/product-page/satan-s-gateway"
+  className="th-btn style2 th-icon"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Order Now
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -185,13 +189,24 @@ function BannerOne() {
                                         className="btn-group"
                                         data-ani="slideinup"
                                         data-ani-delay="0.6s"
-                                    >
-                                        <Link to="/" className="th-btn th-icon">
-                                            Explore 
-                                        </Link>
-                                        <Link to="/" className="th-btn style2 th-icon">
-                                            Our Services
-                                        </Link>
+                                    ><a
+                                    href="https://www.youtube.com/watch?v=3zprKxjLlEQ&list=PLvDojcgf9-Na71HJi9JsgR49KKRLxyFfA"
+                                    className="th-btn th-icon"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    Explore Sermons
+                                  </a>
+                                  
+                                  <a
+                                    href="https://www.youtube.com/@VincentSelvakumar"
+                                    className="th-btn style2 th-icon"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    Watch Videos
+                                  </a>
+                                  
                                     </div>
                                 </div>
                             </div>

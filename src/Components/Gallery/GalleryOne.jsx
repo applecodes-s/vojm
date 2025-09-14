@@ -6,12 +6,12 @@ function GalleryOne() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalImage, setModalImage] = useState('');
 
-    // Function to open the modal with the selected image
-    const openModal = (imageSrc, event) => {
-        event.preventDefault(); // Prevent default link behavior
-        setModalImage(imageSrc);
-        setIsModalOpen(true);
-    };
+ // Function to open the modal with the selected image
+const openModal = (imageSrc, event) => {
+    event.preventDefault(); // Prevent default link behavior
+    setModalImage(process.env.PUBLIC_URL + imageSrc); // ✅ Prepend PUBLIC_URL
+    setIsModalOpen(true);
+};
 
     // Function to close the modal
     const closeModal = () => {

@@ -10,7 +10,8 @@ function TourOne() {
     <section
       className="tour-area position-relative bg-top-center overflow-hidden space bg-no-repeat"
       id="service-sec"
-      style={{ backgroundImage: 'url(/assets/img/bg/tour_bg_1.jpg)' }}
+      style={{  paddingTop: '60px', // controlled padding
+      backgroundImage: 'url(/assets/img/bg/tour_bg_1.jpg)' }}
     >
       <div className="container">
         <div className="row">
@@ -205,7 +206,7 @@ function TourOne() {
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />20 Epi
+                     20 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"
@@ -385,7 +386,7 @@ function TourOne() {
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />20 Epi
+                     20 Epi
                     </span>
                     <a 
     href="https://www.youtube.com/watch?v=W14u1rgGORo&list=PLvDojcgf9-NbovzJr-558BS_XhgdOTplV"

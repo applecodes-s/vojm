@@ -16,12 +16,12 @@ function AboutThree() {
                             <div className="img1">
                                 <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_2_1.jpg"} alt="About" />
                             </div>
-                            <div className="img2">
+                            {/* <div className="img2">
                                 <img src={process.env.PUBLIC_URL + "/assets/img/normal/about_2_2.jpg"} alt="About" />
                                 <button className="play-btn" onClick={() => setModalIsOpen(true)}>
                                     <i className="fa-sharp fa-solid fa-play" />
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-xl-5">

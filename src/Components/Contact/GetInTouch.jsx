@@ -30,14 +30,12 @@ function GetInTouch() {
                             <div className="about-contact-icon">
                                 <img src={process.env.PUBLIC_URL + "/assets/img/icon/call.svg"} alt="" />
                             </div>
-                            <div className="about-contact-details">
+                            <div className="about-contact-details pb-4">
                                 <h6 className="box-title">Phone Number</h6>
                                 <p className="about-contact-details-text">
                                     <Link to="tel:01234567890">+91 97317 22977</Link>
                                 </p>
-                                <p className="about-contact-details-text">
-                                    <Link to="tel:01234567890">+91 90350 72014</Link>
-                                </p>
+                               
                             </div>
                         </div>
                     </div>

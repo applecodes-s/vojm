@@ -6,6 +6,8 @@ function AboutOne({ showFullContent }) {
         <div
             className="about-area position-relative overflow-hidden space"
             id="about-sec"
+            style={{ paddingBottom: '40px' }} // controlled padding
+
         >
             <div className="container shape-mockup-wrap">
                 <div className="row">

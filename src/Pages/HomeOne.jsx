@@ -11,7 +11,6 @@ import CounterOne from '../Components/Counter/CounterOne'
 import TourGuide from '../Components/Guide/TourGuide'
 import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
-import BibleVerse from "../Components/bibleverse";
 
 
 function HomeOne() {

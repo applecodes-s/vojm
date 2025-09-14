@@ -96,7 +96,7 @@ function TourGuide() {
 
   return (
     <section
-      className="bg-smoke space overflow-hidden"
+      className="bg-smoke space overflow-hidden mb-20"
       style={{ backgroundImage: "url(/assets/img/bg/team_bg_1.png)" }}
     >
       <div className="container z-index-common">
@@ -111,7 +111,7 @@ function TourGuide() {
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
             spaceBetween={20}
-            speed={1200}
+            speed={1000}
             breakpoints={{
               576: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
@@ -119,7 +119,7 @@ function TourGuide() {
               1200: { slidesPerView: 4 },
             }}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay:1000 }}
             className="th-slider teamSlider1 has-shadow"
             onSwiper={setSwiperInstance}
           >

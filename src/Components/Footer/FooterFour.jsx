@@ -4,47 +4,76 @@ import Modal from '../Gallery/Modal';
 
 function FooterFour() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-        const [modalImage, setModalImage] = useState('');
-    
-        // Function to open the modal with the selected image
-        const openModal = (imageSrc, event) => {
-            event.preventDefault(); // Prevent default link behavior
-            setModalImage(imageSrc);
-            setIsModalOpen(true);
-        };
-    
-        // Function to close the modal
-        const closeModal = () => {
-            setIsModalOpen(false);
+    const [modalImage, setModalImage] = useState('');
+  
+    // Newsletter form state
+    const [email, setEmail] = useState('');
+    const [error, setError] = useState('');
+  
+    // Modal functions
+    const openModal = (imageSrc, event) => {
+      event.preventDefault();
+      setModalImage(imageSrc);
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+  
+    // Newsletter form functions (must be at component top level)
+    const handleChange = (e) => {
+      setEmail(e.target.value);
+      setError('');
+    };
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const emailRegex = /\S+@\S+\.\S+/;
+      if (!email) {
+        setError('Email is required');
+      } else if (!emailRegex.test(email)) {
+        setError('Please enter a valid email');
+      } else {
+        setError('');
+        alert('Subscribed successfully ✅');
+        setEmail('');
+      }
         };
     return (
         <footer className="footer-wrapper bg-title footer-layout2 shape-mockup-wrap">
             <div className="widget-area">
                 <div className="container">
-                    <div className="newsletter-area">
-                        <div className="newsletter-top">
-                            <div className="row gy-4 align-items-center">
-                                <div className="col-lg-5">
-                                    <h2 className="newsletter-title text-white text-capitalize mb-0">
-                                    Get Updated with the Latest Books & Sermons!
-                                    </h2>
-                                </div>
-                                <div className="col-lg-7">
-                                    <form className="newsletter-form style2">
-                                        <input
-                                            className="form-control "
-                                            type="email"
-                                            placeholder="Enter Email"
-                                            required=""
-                                        />
-                                        <button type="submit" className="th-btn style1">
-                                            Subscribe Now <img src={process.env.PUBLIC_URL + "/assets/img/icon/plane2.svg"} alt="" />
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="newsletter-area">
+      <div className="newsletter-top">
+        <div className="row gy-4 align-items-center">
+          <div className="col-lg-5">
+            <h2 className="newsletter-title text-white text-capitalize mb-0">
+              Get Updated with the Latest Books & Sermons!
+            </h2>
+          </div>
+          <div className="col-lg-7">
+            <form className="newsletter-form style2" onSubmit={handleSubmit}>
+              <input
+                className="form-control"
+                type="email"
+                placeholder="Enter Email"
+                value={email}
+                onChange={handleChange}
+              />
+              <button type="submit" className="th-btn style1">
+                Subscribe Now{' '}
+                <img
+                  src={process.env.PUBLIC_URL + '/assets/img/icon/plane2.svg'}
+                  alt=""
+                />
+              </button>
+              {error && <p className="error-text">{error}</p>}
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
                     <div className="row justify-content-between">
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
@@ -55,8 +84,8 @@ function FooterFour() {
                                         </Link>
                                     </div>
                                     <p className="about-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                         Sapiente deserunt quaerat distinctio iste aliquid sequi totam a, accusamus quidem voluptatem.
+                                    Official website of Prophet Vincent Selvakumaar. The vision is to raise prophets who stand in holiness, prayer, and revelation for God’s glory.
+
                                     </p>
                                     <div className="th-social">
     <a href="https://www.facebook.com/vincentselvakumar.org/" target="_blank" rel="noopener noreferrer">
@@ -130,7 +159,7 @@ function FooterFour() {
                                                                                                 to="mailto:vojmedia@gmail.com"
                                                                                                 className="info-box_link"
                                                                                             >
-                                                                                                vojmedia@gmail.com
+                                                                                               prayer@vincentselvakumaar.org
                                                                                             </Link>
                                                                                         </p>
                                                                                         <p>
@@ -277,9 +306,9 @@ function FooterFour() {
                         </div>
                         <div className="col-md-6 text-end d-none d-md-block">
                             <div className="footer-card">
-                            <p className="copyright-text">
+                            {/* <p className="copyright-text">
                                 made width  ❤️ from VOJM
-                            </p>
+                            </p> */}
                                 {/* <span className="title">We Accept</span>
                                 <img src={process.env.PUBLIC_URL + "/assets/img/shape/cards.png" alt="" /> */}
                             </div>

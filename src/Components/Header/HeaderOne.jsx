@@ -91,9 +91,9 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                             <Link to="/gallery">Gallery</Link>
-                                            </li>
+                                            </li> */}
                                           
                                        
 {/*                                        

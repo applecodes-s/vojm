@@ -31,3 +31,34 @@
     }
   }
   
+  .swiper-pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .destination-slider {
+    padding-bottom: 50px;  /* give space at bottom so dots don’t overlap images */
+  }
+  
+  .destination-slider .swiper-pagination {
+    bottom: 0px !important;   /* force dots to bottom */
+    position: relative;       /* keep it below, not inside slides */
+    margin-top: 60px;         /* gap between slider and dots */
+    text-align: center;
+  }
+  
+  
+  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #000;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #000;
+    opacity: 1;
+  }
+  
+  

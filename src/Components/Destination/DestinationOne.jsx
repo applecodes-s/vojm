@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Navigation} from "swiper/modules";
+import { EffectCoverflow, Pagination} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import "swiper/css/navigation";
 
 
 const destinations = [
@@ -45,23 +44,27 @@ const destinations = [
 ];
 
 const sliderOptions = {
-  modules: [EffectCoverflow, Navigation],
+  modules: [EffectCoverflow, Pagination],
   effect: "coverflow",
   centeredSlides: true,
   slidesPerView: 5,
   initialSlide: 0,
   grabCursor: true,
   loop: true,
-  speed: 1500,
+  speed: 500, // 👈 transition speed (ms)
+  autoplay: {   // ✅ FIXED
+    delay: 500, // 👈 time between slides (ms)
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   coverflowEffect: {
     rotate: 0,
     stretch: 95,
     depth: 212,
     modifier: 1
   },
-  navigation: {
-    nextEl: ".slider-next",
-    prevEl: ".slider-prev"
+  pagination: {
+    clickable: true,   // no need for el
   },
   breakpoints: {
     0: { slidesPerView: 1 },
@@ -150,21 +153,8 @@ function DestinationOne() {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="th-swiper-custom">
-  {/* <button className="slider-arrow slider-prev">
-    <img
-      src={process.env.PUBLIC_URL + "/assets/img/icon/left-arrow.svg"}
-      alt="Prev"
-    />
-  </button>
-
-  <button className="slider-arrow slider-next">
-    <img
-      src={process.env.PUBLIC_URL + "/assets/img/icon/right-arrow.svg"}
-      alt="Next"
-    />
-  </button> */}
-</div>
+  
+          <div className="swiper-pagination"></div>
 
         </div>
       </div>
