@@ -158,9 +158,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                          */}
-                                            <li>
-                                                <Link to="/contact">Contact us</Link>
-                                            </li>
+                                           
                                             <li>
                                             <a href="https://jvprophecy.vincentselvakumar.org/login" target="_blank" rel="noopener noreferrer">
                                             Prophecies</a>
@@ -169,6 +167,9 @@ function HeaderOne() {
                                                 <a href="https://www.vincentselvakumarbooks.com/bookstore" target="_blank" rel="noopener noreferrer">
                                                 Books 
                                                 </a> </li>
+                                                <li>
+                                                <Link to="/contact">Contact us</Link>
+                                            </li>
                                         </ul>
                                     </nav>
                                     <button

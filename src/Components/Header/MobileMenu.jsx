@@ -58,7 +58,14 @@ function MobileMenu({ isOpen, onClose }) {
                         <li><Link to="/about">About Us</Link></li>
                         {/* <li><Link to="/gallery">Gallery test</Link></li> */}
 
-            
+                        <li>
+                                            <a href="https://jvprophecy.vincentselvakumar.org/login" target="_blank" rel="noopener noreferrer">
+                                            Prophecies</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.vincentselvakumarbooks.com/bookstore" target="_blank" rel="noopener noreferrer">
+                                                Books 
+                                                </a> </li>
 
                         {/* Pages */}
 
