@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "VOJM",
+  "name": "VOJM - Vincent Selvakumar Ministries",
+  "description": "A Christian ministry website offering books and teachings to strengthen your spiritual life.",
   "icons": [
     {
       "src": "favicon.ico",
