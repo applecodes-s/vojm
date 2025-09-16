@@ -1,24 +1,22 @@
 import React from 'react'
 import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
-import GetInTouch from '../Components/Contact/GetInTouch'
-import PrayerRequestForm from '../Components/Contact/PrayerRequestForm'
+import Donate from '../Components/Services/Donate'
 import FooterFour from '../Components/Footer/FooterFour'
 import ScrollToTop from '../Components/ScrollToTop'
 
-function Contact() {
+function Pricing() {
     return (
-        <>
+        <div>
             <HeaderOne />
             <Breadcrumb
-                title='Contact Us'
+                title="Support Us"
             />
-            <GetInTouch />
-            <PrayerRequestForm/>
+            <Donate className="space"/>
             <FooterFour />
             <ScrollToTop />
-        </>
+        </div>
     )
 }
 
-export default Contact
+export default Pricing

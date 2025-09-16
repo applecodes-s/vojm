@@ -36,11 +36,11 @@
     text-align: center;
   }
 
-  .destination-slider {
+  .message-slider {
     padding-bottom: 50px;  /* give space at bottom so dots don’t overlap images */
   }
   
-  .destination-slider .swiper-pagination {
+  .message-slider .swiper-pagination {
     bottom: 0px !important;   /* force dots to bottom */
     position: relative;       /* keep it below, not inside slides */
     margin-top: 60px;         /* gap between slider and dots */

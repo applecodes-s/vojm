@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import NiceSelect from './NiceSelect';
 import MobileMenu from './MobileMenu';
-import LoginForm from './LoginForm';
 
 function HeaderOne() {
     // const languageOptions = [
@@ -91,73 +90,7 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            {/* <li>
-                                            <Link to="/gallery">Gallery</Link>
-                                            </li> */}
                                           
-                                       
-{/*                                        
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">Pages</Link>
-                                                <ul className="sub-menu">
-                                                    <li className="menu-item-has-children">
-                                                        <Link to="#">Shop</Link>
-                                                        <ul className="sub-menu">
-                                                            <li>
-                                                                <Link to="/shop">Shop</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/shop/1">Shop Details</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/cart">Cart Page</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/checkout">Checkout</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/wishlist">Wishlist</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/gallery">Gallery</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour">Our Tour</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort">Resort page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort/1">Resort Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide">Tour Guider</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide/1">
-                                                            Tour Guider Details
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/faq">Faq Page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/price">Price Package</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/error">Error Page</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                         */}
                                            
                                             <li>
                                             <a href="https://jvprophecy.vincentselvakumar.org/login" target="_blank" rel="noopener noreferrer">
@@ -182,7 +115,7 @@ function HeaderOne() {
                                 </div>
                                 <div className="col-auto d-none d-xl-block">
                                     <div className="header-button">
-                                        <Link to="/price" className="th-btn style3 th-icon">
+                                        <Link to="/donate" className="th-btn style3 th-icon">
                                             Donate
                                         </Link>
                                     </div>
@@ -198,7 +131,6 @@ function HeaderOne() {
                 </div>
             </header>
             <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
-            <LoginForm isOpen={isLoginFormOpen} onClose={() => setIsLoginFormOpen(false)} />
         </>
 
     )

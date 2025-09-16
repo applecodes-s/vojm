@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
-import PricingPlan from '../Components/Services/PricingPlan'
+import Donate from '../Components/Services/Donate'
 import FooterFour from '../Components/Footer/FooterFour'
 import ScrollToTop from '../Components/ScrollToTop'
 
@@ -12,7 +12,7 @@ function Service() {
             <Breadcrumb
                 title="Services"
             />
-            <PricingPlan className="space-bottom"/>
+            <Donate className="space-bottom"/>
             <FooterFour />
             <ScrollToTop />
         </div>

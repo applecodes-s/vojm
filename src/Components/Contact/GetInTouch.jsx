@@ -33,7 +33,7 @@ function GetInTouch() {
                             <div className="about-contact-details pb-4">
                                 <h6 className="box-title">Phone Number</h6>
                                 <p className="about-contact-details-text">
-                                    <Link to="tel:01234567890">+91 97317 22977</Link>
+                                    <Link to="tel:9731722977">+91 97317 22977</Link>
                                 </p>
                                
                             </div>
@@ -47,10 +47,10 @@ function GetInTouch() {
                             <div className="about-contact-details">
                                 <h6 className="box-title">Email Address</h6>
                                 <p className="about-contact-details-text">
-                                    <Link to="mailto:mailinfo00@tourm.com">vojmedia@gmail.com</Link>
+                                    <Link to="mailto:prayers@vincentselvakumaar.org">prayers@vincentselvakumaar.org</Link>
                                 </p>
                                 <p className="about-contact-details-text">
-                                    <Link to="mailto:support24@tourm.com">vincentselvakumaar@info.org</Link>
+                                    <Link to="mailto:info@vincentselvakumaar.org">info@vincentselvakumaar.org</Link>
                                 </p>
                             </div>
                         </div>

@@ -63,7 +63,7 @@ function FooterOne() {
                                 <div className="th-widget-about">
                                     <div className="about-logo">
                                         <Link to="/">
-                                            <img src={process.env.PUBLIC_URL + "/assets/img/logo-white.png"} alt="Tourm" />
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/logo-white.png"} alt="VOJM" />
                                         </Link>
                                     </div>
                                     <p className="about-text">

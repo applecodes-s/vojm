@@ -35,7 +35,7 @@ const ElementSection = ({ className }) => {
             });
 
             const runner = Runner.create();
-            Runner.run(runner, engine);
+            Runner.run(runner, engine, 1000 / 60);
 
             // Static boundaries
             const ground = Bodies.rectangle(width / 2, height + 80, width + 320, 160, { isStatic: true });
@@ -80,11 +80,11 @@ const ElementSection = ({ className }) => {
             // **Adding Animation to Spread Out Elements**
             setTimeout(() => {
                 tags.forEach((tag, index) => {
-                    const forceX = (Math.random() - 0.5) * 0.05; // Random push left/right
-                    const forceY = -0.05 - Math.random() * 0.02; // Upward push
+                    const forceX = (Math.random() - 0.5) * 0.08; // Random push left/right
+                    const forceY = -0.08 - Math.random() * 0.03; // Upward push
                     Matter.Body.applyForce(tag, { x: tag.position.x, y: tag.position.y }, { x: forceX, y: forceY });
                 });
-            }, 1000); // Delay before spreading (1s)
+            }, 500); // Delay before spreading (1s)
 
             Render.run(render);
 

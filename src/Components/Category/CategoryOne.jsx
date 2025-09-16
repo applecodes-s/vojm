@@ -10,16 +10,16 @@ const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg" },
-    { id: 2, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg" },
-    { id: 3, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg" },
-    { id: 4, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg" },
-    { id: 5, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg" },
-    { id: 6, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg" },
-    { id: 7, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg" },
-    { id: 8, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg" },
-    { id: 9, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg" },
-    { id: 10, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg" },
+    { id: 1, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkappada-vendiya-dheergadharisanangal" },
+    { id: 2, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies-tamil" },
+    { id: 3, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkalaam-vaanga" },
+    { id: 4, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/ways-to-overcome-violation-of-sins" },
+    { id: 5, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/copy-of-aazhangal-sollum-satchigal-part-i" },
+    { id: 6, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/end-time-warnings" },
+    { id: 7, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies" },
+    { id: 8, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/prophecies-that-are-to-be-prayed" },
+    { id: 9, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/meerum-paavangalum-athai-merkkollum-vithangalum"},
+    { id: 10, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/tamil-book" },
   ];
 
   useEffect(() => {
@@ -117,13 +117,11 @@ const CategoryOne = () => {
                   <img src={category.imgSrc} alt={category.title} loading="lazy" />
                 </div>
                 <h3 className="box-title">
-                <a
-    href="https://www.vincentselvakumarbooks.com/bookstore"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+  <a href={category.url} target="_blank" rel="noopener noreferrer">
     {category.title}
-  </a>                </h3>
+  </a>
+</h3>
+
                 {/* <Link className="line-btn" to="/destination">
                   See more
                 </Link> */}
