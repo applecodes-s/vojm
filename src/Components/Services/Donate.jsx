@@ -44,7 +44,7 @@ function Donate({className}) {
                                    
 
     <img
-      src={process.env.PUBLIC_URL + "/assets/img/qr.png"}
+      src={"https://www.vincentselvakumar.org/assets/img/qr.png"}
       alt="AXIS Bank QR"
       style={{ maxWidth: "150px" }}
     />
@@ -62,7 +62,7 @@ function Donate({className}) {
                             {/* <div className="offer-tag">Popular</div> */}
                             <div className="donate-card_wrapp">
                                 {/* <div className="donate-card_icon">
-                                    <img src={process.env.PUBLIC_URL + "assets/img/icon/price_1_1.svg"} alt="img" />
+                                    <img src={"https://www.vincentselvakumar.org/assets/img/icon/price_1_1.svg"} alt="img" />
                                 </div> */}
                                 <h3 className="box-title">ICICI Bank</h3>
                             </div>
@@ -89,7 +89,7 @@ function Donate({className}) {
                                 </div>
                                 <div className="qr-code mt-3 text-center">
     <img
-      src={process.env.PUBLIC_URL + "/assets/img/qr.png"}
+      src={"https://www.vincentselvakumar.org/assets/img/qr.png"}
       alt="AXIS Bank QR"
       style={{ maxWidth: "150px" }}
     />
@@ -110,7 +110,7 @@ function Donate({className}) {
                 >
                     <img
                         className="gmovingX"
-                        src={process.env.PUBLIC_URL + "assets/img/normal/about-slide-img.png"}
+                        src={"https://www.vincentselvakumar.org/assets/img/normal/about-slide-img.png"}
                         alt="shape"
                     />
                 </div>
@@ -118,13 +118,13 @@ function Donate({className}) {
                     className="shape-mockup d-none d-xl-block"
                     style={{ bottom: "-13%", left: "-16%" }}
                 >
-                    <img src={process.env.PUBLIC_URL + "assets/img/shape/shape_6.png"} alt="shape" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/shape/shape_6.png"} alt="shape" />
                 </div>
                 <div
                     className="shape-mockup jump d-none d-xl-block"
                     style={{ top: "15%", left: "-10%" }}
                 >
-                    <img src={process.env.PUBLIC_URL + "assets/img/shape/shape_2_2.png"} alt="shape" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/shape/shape_2_2.png"} alt="shape" />
                 </div>
             </div>
         </section>

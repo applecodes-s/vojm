@@ -64,7 +64,7 @@ function FooterFour() {
               <button type="submit" className="th-btn style1">
                 Subscribe Now{' '}
                 <img
-                  src={process.env.PUBLIC_URL + '/assets/img/icon/plane2.svg'}
+                  src={'https://www.vincentselvakumar.org/assets/img/icon/plane2.svg'}
                   alt=""
                 />
               </button>
@@ -80,7 +80,7 @@ function FooterFour() {
                                 <div className="th-widget-about">
                                     <div className="about-logo">
                                         <Link to="/">
-                                            <img src={process.env.PUBLIC_URL + "/assets/img/logo-white.png"} alt="VOJM" />
+                                            <img src={"https://www.vincentselvakumar.org/assets/img/logo-white.png"} alt="VOJM" />
                                         </Link>
                                     </div>
                                     <p className="about-text">
@@ -138,7 +138,7 @@ function FooterFour() {
                                 <div className="th-widget-contact">
                                     <div className="info-box_text">
                                         <div className="icon">
-                                            <img src={process.env.PUBLIC_URL + "/assets/img/icon/phone.svg"} alt="img" />
+                                            <img src={"https://www.vincentselvakumar.org/assets/img/icon/phone.svg"} alt="img" />
                                         </div>
                                         <div className="details">
                                              <p>
@@ -151,7 +151,7 @@ function FooterFour() {
                                                                                 </div>
                                                                                 <div className="info-box_text">
                                                                                     <div className="icon">
-                                                                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/envelope.svg"} alt="img" />
+                                                                                        <img src={"https://www.vincentselvakumar.org/assets/img/icon/envelope.svg"} alt="img" />
                                                                                     </div>
                                                                                     <div className="details">
                                                                                         <p>
@@ -174,7 +174,7 @@ function FooterFour() {
                                                                                 </div>
                                                                                 <div className="info-box_text">
                                                                                     <div className="icon">
-                                                                                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/location-dot.svg"} alt="img" />
+                                                                                        <img src={"https://www.vincentselvakumar.org/assets/img/icon/location-dot.svg"} alt="img" />
                                                                                     </div>
                                                                                     <div className="details">
                                                                                         <p>Voice Of Jesus Media Bangalore India</p>
@@ -193,7 +193,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_1.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_1.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/satan-s-gateway"
@@ -210,7 +210,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_2.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_2.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/satan-s-gateway-english"
@@ -227,7 +227,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_3.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_3.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/revival-enemies-tamil"
@@ -244,7 +244,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_4.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_4.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/revival-enemies"
@@ -261,7 +261,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_5.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_5.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/thallupadiyagama-kathaigal"
@@ -278,7 +278,7 @@ function FooterFour() {
         target="_blank"
         rel="noopener noreferrer"
     >
-        <img src={process.env.PUBLIC_URL + "/assets/img/widget/gallery_1_6.jpg"} alt="Book Cover" />
+        <img src={"https://www.vincentselvakumar.org/assets/img/widget/gallery_1_6.jpg"} alt="Book Cover" />
     </a>
     <a
         href="https://www.vincentselvakumarbooks.com/product-page/echarikkai-cheithigal"
@@ -320,7 +320,7 @@ function FooterFour() {
                 className="shape-mockup movingX d-none d-xxl-block"
                 style={{ top: '24%', left: '5%' }}
             >
-                <img src={process.env.PUBLIC_URL + "/assets/img/shape/shape_8.png"} alt="shape" />
+                <img src={"https://www.vincentselvakumar.org/assets/img/shape/shape_8.png"} alt="shape" />
             </div>
             <Modal isOpen={isModalOpen} closeModal={closeModal} imageSrc={modalImage} />
         </footer>

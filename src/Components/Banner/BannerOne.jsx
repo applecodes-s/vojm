@@ -69,7 +69,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_1.jpg)`,
+                                    backgroundImage: `url("https://www.vincentselvakumar.org/assets/img/hero/hero_bg_1_1.jpg")`,
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -118,7 +118,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_2.jpg)`, 
+                                    backgroundImage: `url("https://www.vincentselvakumar.org/assets/img/hero/hero_bg_1_2.jpg")`, 
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -164,7 +164,7 @@ function BannerOne() {
                             <div
                                 className="th-hero-bg"
                                 style={{
-                                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/hero/hero_bg_1_3.jpg)`,
+                                    backgroundImage: `url("https://www.vincentselvakumar.org/assets/img/hero/hero_bg_1_3.jpg")`,
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
                                 }}
@@ -218,14 +218,14 @@ function BannerOne() {
                         className="slider-arrow slider-prev"
                         onClick={() => handleSliderNavigation("prev")}
                     >
-                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/right-arrow.svg"} alt="Prev" />
+                        <img src={"https://www.vincentselvakumar.org/assets/img/icon/right-arrow.svg"} alt="Prev" />
                     </button>
                     <div className="swiper-pagination" /> {/* Pagination container */}
                     <button
                         className="slider-arrow slider-next"
                         onClick={() => handleSliderNavigation("next")}
                     >
-                        <img src={process.env.PUBLIC_URL + "/assets/img/icon/left-arrow.svg"} alt="Next" />
+                        <img src={"https://www.vincentselvakumar.org/assets/img/icon/left-arrow.svg"} alt="Next" />
                     </button>
                 </div>
             </Swiper>

@@ -4,22 +4,20 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Link } from "react-router-dom";
-
 const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkappada-vendiya-dheergadharisanangal" },
-    { id: 2, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies-tamil" },
-    { id: 3, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkalaam-vaanga" },
-    { id: 4, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/ways-to-overcome-violation-of-sins" },
-    { id: 5, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/copy-of-aazhangal-sollum-satchigal-part-i" },
-    { id: 6, title: "Prophecy & End Times", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/end-time-warnings" },
-    { id: 7, title: "Revival", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies" },
-    { id: 8, title: "Prayer", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/prophecies-that-are-to-be-prayed" },
-    { id: 9, title: "Youth Inspiration", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/meerum-paavangalum-athai-merkkollum-vithangalum"},
-    { id: 10, title: "Bible Study", imgSrc: process.env.PUBLIC_URL +"/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/tamil-book" },
+    { id: 1, title: "Prophecy", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkappada-vendiya-dheergadharisanangal" },
+    { id: 2, title: "Revival", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies-tamil" },
+    { id: 3, title: "Prayer", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/jebikkalaam-vaanga" },
+    { id: 4, title: "Youth Inspiration", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/ways-to-overcome-violation-of-sins" },
+    { id: 5, title: "Bible Study", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/copy-of-aazhangal-sollum-satchigal-part-i" },
+    { id: 6, title: "Prophecy", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_1.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/end-time-warnings" },
+    { id: 7, title: "Revival", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_2.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/revival-enemies" },
+    { id: 8, title: "Prayer", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_3.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/prophecies-that-are-to-be-prayed" },
+    { id: 9, title: "Youth Inspiration", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_4.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/meerum-paavangalum-athai-merkkollum-vithangalum"},
+    { id: 10, title: "Bible Study", imgSrc: "https://www.vincentselvakumar.org/assets/img/category/category_1_5.jpg", url: "https://www.vincentselvakumarbooks.com/product-page/tamil-book" },
   ];
 
   useEffect(() => {
@@ -75,8 +73,10 @@ const CategoryOne = () => {
   return (
     <section
       className="category-area bg-top-center"
-      style={{ backgroundImage: "url(/assets/img/bg/category_bg_1.png)", backgroundRepeat: "no-repeat" }}
-    >
+      style={{
+        backgroundImage: "url('https://www.vincentselvakumar.org/assets/img/bg/category_bg_1.png')",
+        backgroundRepeat: "no-repeat"
+      }}    >
       <div className="container th-container">
         <div className="title-area text-center">
           <span className="sub-title">Explore Our Book Categories</span>

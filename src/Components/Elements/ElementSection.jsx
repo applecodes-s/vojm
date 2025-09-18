@@ -49,7 +49,7 @@ const ElementSection = ({ className }) => {
             const centerY = height / 2 - 100; // Start slightly above center
 
             for (let i = 1; i <= 19; i++) {
-                let texturePath = `/assets/img/shape/elements_1_${i}.svg`;
+                let texturePath = `https://www.vincentselvakumar.org/assets/img/shape/elements_1_${i}.svg`;
 
                 let tag = Bodies.rectangle(centerX, centerY, 80, 80, {
                     chamfer: { radius: 10 },

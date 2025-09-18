@@ -15,21 +15,21 @@ function AboutOne({ showFullContent }) {
                     <div className="img-box1 mb-20 relative">
   <div className="img1">
     <img
-      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_1.jpg"}
-      alt="About"
+  src="https://www.vincentselvakumar.org/assets/img/normal/about_1_1.jpg"
+  alt="About"
       className="rounded-[30%]"
     />
   </div>
   <div className="img2 pl-8 ml-12 mb-8">
     <img
-      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_2.jpg"}
+      src="https://www.vincentselvakumar.org/assets/img/normal/about_1_2.jpg"
       alt="About"
       className="rounded-full"
     />
   </div>
   <div className="img3 ml-8 mt-2">
     <img
-      src={process.env.PUBLIC_URL + "/assets/img/normal/about_1_3.jpg"}
+      src="https://www.vincentselvakumar.org/assets/img/normal/about_1_3.jpg"
       alt="About"
       className="rounded-full"
     />

@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
-import NiceSelect from '../Header/NiceSelect';
 import Modal from 'react-modal';
 Modal.setAppElement('#root');
 
@@ -62,7 +60,7 @@ function PrayerRequestForm() {
     <div
       className="space-extra2-top space-extra2-bottom"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/video_bg_1.jpg)`,
+        backgroundImage: `url("https://www.vincentselvakumar.org/assets/img/bg/video_bg_1.jpg")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -96,7 +94,7 @@ function PrayerRequestForm() {
                       onChange={handleChange}
                       placeholder="First Name"
                     />
-                    <img src={process.env.PUBLIC_URL + "assets/img/icon/user.svg"} alt="" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/icon/user.svg"} alt="" />
                     {errors.name && <p className="error-text">{errors.name}</p>}
                   </div>
 
@@ -109,7 +107,7 @@ function PrayerRequestForm() {
                       onChange={handleChange}
                       placeholder="Your Mail"
                     />
-                    <img src={process.env.PUBLIC_URL + "assets/img/icon/mail.svg"} alt="" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/icon/mail.svg"} alt="" />
                     {errors.email && <p className="error-text">{errors.email}</p>}
                   </div>
 
@@ -122,7 +120,7 @@ function PrayerRequestForm() {
                       onChange={handleChange}
                       placeholder="Your Phone"
                     />
-                    <img src={process.env.PUBLIC_URL + "assets/img/icon/phone.svg"} alt="" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/icon/phone.svg"} alt="" />
                     {errors.phone && <p className="error-text">{errors.phone}</p>}
                   </div>
 
@@ -136,14 +134,14 @@ function PrayerRequestForm() {
                       className="form-control"
                       placeholder="Your Message"
                     />
-                    <img src={process.env.PUBLIC_URL + "assets/img/icon/chat.svg"} alt="" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/icon/chat.svg"} alt="" />
                     {errors.message && <p className="error-text">{errors.message}</p>}
                   </div>
 
                   <div className="form-btn col-12 mt-24">
                     <button type="submit" className="th-btn style3">
                       Send message
-                      <img src={process.env.PUBLIC_URL + "assets/img/icon/plane.svg"} alt="" />
+                      <img src={"https://www.vincentselvakumar.org/assets/img/icon/plane.svg"} alt="" />
                     </button>
                   </div>
                 </div>

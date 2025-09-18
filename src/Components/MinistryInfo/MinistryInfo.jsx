@@ -56,7 +56,7 @@ function MinistryInfo() {
                             {/* Button */}
                             <div className="form-btn col-md-12 col-lg-auto">
   <Link to="/about" className="th-btn">
-    <img src={process.env.PUBLIC_URL + "/assets/img/icon/search.svg"} alt="" />
+    <img src={"https://www.vincentselvakumar.org/assets/img/icon/search.svg"} alt="" />
     Explore Ministry
   </Link>
 </div>

@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'; // Import navigation styles
 import 'swiper/css/pagination'; // Import pagination styles
-import { Link } from 'react-router-dom';
 
 function PlaylistSlider() {
   return (
@@ -42,7 +41,7 @@ function PlaylistSlider() {
             <SwiperSlide key="tour1">
               <div className="playlist-box th-ani gsap-cursor">
                 <div className="playlist-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_1.jpg"} alt="Seven Seals Messages" />
+                  <img src={"https://www.vincentselvakumar.org/assets/img/tour/tour_box_1.jpg"} alt="Seven Seals Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -88,7 +87,7 @@ function PlaylistSlider() {
             <SwiperSlide key="tour2">
               <div className="playlist-box th-ani gsap-cursor">
                 <div className="playlist-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_2.jpg"} alt="Seven Trumpets Messages" />
+                  <img src={"https://www.vincentselvakumar.org/assets/img/tour/tour_box_2.jpg"} alt="Seven Trumpets Messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -132,7 +131,7 @@ function PlaylistSlider() {
             <SwiperSlide key="tour3">
               <div className="playlist-box th-ani gsap-cursor">
                 <div className="playlist-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_3.jpg"} alt="Dubai Tour Package" />
+                  <img src={"https://www.vincentselvakumar.org/assets/img/tour/tour_box_3.jpg"} alt="Dubai Tour Package" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
@@ -177,7 +176,7 @@ function PlaylistSlider() {
             <SwiperSlide key="tour4">
               <div className="playlist-box th-ani gsap-cursor">
                 <div className="playlist-box_img global-img">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches messages" />
+                  <img src={"https://www.vincentselvakumar.org/assets/img/tour/tour_box_4.jpg"} alt="Seven Churches messages" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">

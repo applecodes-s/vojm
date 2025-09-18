@@ -9,7 +9,7 @@ function GalleryOne() {
  // Function to open the modal with the selected image
 const openModal = (imageSrc, event) => {
     event.preventDefault(); // Prevent default link behavior
-    setModalImage(process.env.PUBLIC_URL + imageSrc); // ✅ Prepend PUBLIC_URL
+    setModalImage(imageSrc); // ✅ Prepend PUBLIC_URL
     setIsModalOpen(true);
 };
 
@@ -39,7 +39,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_1.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_1.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_1.jpg', e)}
                                 />
@@ -59,7 +59,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_2.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_2.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_2.jpg', e)}
                                 />
@@ -77,7 +77,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_3.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_3.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_3.jpg', e)}
                                 />
@@ -97,7 +97,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_4.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_4.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_4.jpg', e)}
                                 />
@@ -117,7 +117,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_5.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_5.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_5.jpg', e)}
                                 />
@@ -135,7 +135,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_6.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_6.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_6.jpg', e)}
                                 />
@@ -155,7 +155,7 @@ const openModal = (imageSrc, event) => {
                                     </div>
                                 </Link>
                                 <img
-                                    src={process.env.PUBLIC_URL + "/assets/img/gallery/gallery_1_7.jpg"}
+                                    src={"https://www.vincentselvakumar.org/assets/img/gallery/gallery_1_7.jpg"}
                                     alt="gallery"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_7.jpg', e)}
                                 />
@@ -169,7 +169,7 @@ const openModal = (imageSrc, event) => {
                         left: "0%",
                     }}
                 >
-                    <img src={process.env.PUBLIC_URL + "/assets/img/shape/line.png"} alt="shape" />
+                    <img src={"https://www.vincentselvakumar.org/assets/img/shape/line.png"} alt="shape" />
                 </div>
                 <div className="shape-mockup movingX d-none d-xl-block"
                     style={{
@@ -177,7 +177,7 @@ const openModal = (imageSrc, event) => {
                         left: "-3%",
                     }}
                 >
-                    <img className="gmovingX" src={process.env.PUBLIC_URL + "/assets/img/shape/shape_4.png"} alt="shape" />
+                    <img className="gmovingX" src={"https://www.vincentselvakumar.org/assets/img/shape/shape_4.png"} alt="shape" />
                 </div>
             </div>
             <Modal isOpen={isModalOpen} closeModal={closeModal} imageSrc={modalImage} />

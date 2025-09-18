@@ -1,18 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import NiceSelect from './NiceSelect';
 import MobileMenu from './MobileMenu';
 
 function HeaderOne() {
-    // const languageOptions = [
-    //     { value: "language", label: "Language" },
-    //     { value: "CNY", label: "CNY" },
-    //     { value: "EUR", label: "EUR" },
-    //     { value: "AUD", label: "AUD" },
-    // ];
+   
     const [isSticky, setIsSticky] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [isLoginFormOpen, setIsLoginFormOpen] = useState(false);
+    // const [isLoginFormOpen, setIsLoginFormOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -77,7 +71,7 @@ function HeaderOne() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="VOJM" />
+                                            <img src={"https://www.vincentselvakumar.org/assets/img/logo.png"} alt="VOJM" />
                                         </Link>
                                     </div>
                                 </div>

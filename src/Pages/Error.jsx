@@ -17,7 +17,7 @@ function Error() {
           <div className="row flex-row-reverse align-items-center">
             <div className="col-lg-6">
               <div className="error-img">
-                <img src={process.env.PUBLIC_URL + "/assets/img/theme-img/error.svg"} alt="404" />
+                <img src={"https://www.vincentselvakumar.org/assets/img/theme-img/error.svg"} alt="404" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -31,7 +31,7 @@ function Error() {
                   free to journey back to our homepage
                 </p>
                 <Link to="/" className="th-btn style3">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/icon/right-arrow2.svg"} alt="" />
+                  <img src={"https://www.vincentselvakumar.org/assets/img/icon/right-arrow2.svg"} alt="" />
                   Go Back Home
                 </Link>
               </div>
