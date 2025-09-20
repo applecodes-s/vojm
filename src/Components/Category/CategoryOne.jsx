@@ -113,9 +113,11 @@ const CategoryOne = () => {
           {categories.map((category) => (
             <SwiperSlide key={category.id}>
               <div className="category-card single">
-                <div className="box-img global-img">
-                  <img src={category.imgSrc} alt={category.title} loading="lazy" />
-                </div>
+              <a href={category.url} target="_blank" rel="noopener noreferrer">
+      <div className="box-img global-img">
+        <img src={category.imgSrc} alt={category.title} loading="lazy" />
+      </div>
+    </a>
                 <h3 className="box-title">
   <a href={category.url} target="_blank" rel="noopener noreferrer">
     {category.title}

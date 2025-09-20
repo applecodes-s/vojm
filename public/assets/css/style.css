@@ -7964,65 +7964,6 @@ ol.wp-block-rss {
   min-width: 100px;
 }
 
-.header-layout1 .logo-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20%;
-  height: 92px;
-  z-index: -1;
-  background-color: var(--theme-color);
-  /* Medium Large devices */
-  /* Large devices */
-  /* Medium devices */
-  /* Small devices */
-  /* Extra small devices */
-}
-
-@media (min-width: 1930px) {
-  .header-layout1 .logo-bg {
-    width: 25%;
-    height: 93px;
-  }
-}
-
-@media (max-width: 1299px) {
-  .header-layout1 .logo-bg {
-    width: 28%;
-  }
-}
-
-@media (max-width: 1199px) {
-  .header-layout1 .logo-bg {
-    width: 40%;
-    height: 80px;
-  }
-}
-
-@media (max-width: 991px) {
-  .header-layout1 .logo-bg {
-    width: 50%;
-  }
-}
-
-@media (max-width: 767px) {
-  .header-layout1 .logo-bg {
-    width: 60%;
-  }
-}
-
-@media (max-width: 480px) {
-  .header-layout1 .logo-bg {
-    width: 70%;
-  }
-}
-
-@media (max-width: 375px) {
-  .header-layout1 .logo-bg {
-    width: 80%;
-  }
-}
-
 .header-layout1 .main-menu {
   position: relative;
   padding-left: 70px;
@@ -8057,12 +7998,6 @@ ol.wp-block-rss {
   }
 }
 
-@media (min-width: 2440px) and (max-width: 4180px) {
-  .header-layout1 .logo-bg {
-    width: 30%;
-    height: 93px;
-  }
-}
 
 /* Header 1 End ---------------------------------- */
 /* Define animation for each character    */
