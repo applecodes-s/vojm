@@ -1,0 +1,58 @@
+[
+    {
+      "month": "July",
+      "title": "The Upcoming Revival",
+      "week": "Week 1",
+      "subtitle":  "Prophecies to be Prayed - 01", 
+      "date": "July 20th, 2025", 
+      "tamilImage": "/assets/img/category/category_2_2.jpg",
+      "englishImage": "/assets/img/category/category_2_2.jpg",
+      "tamilPdf": "/pdfs/Week 1 Tamil.pdf",
+      "englishPdf": "/pdfs/Week 1 English.pdf"
+    },
+    {
+      "month": "August",
+      "title": "What will the upcoming Revival be like?",
+      "week": "Week 2",
+      "subtitle":  "Prophecies to be Prayed - 02", 
+      "date": "August 17th, 2025", 
+      "tamilImage": "/assets/img/category/category_2_3.jpg",
+      "englishImage": "/assets/img/category/category_2_3.jpg",
+      "tamilPdf": "/pdfs/Week 2 Tamil.pdf",
+      "englishPdf": "/pdfs/Week 2 English.pdf"
+    },
+    {
+      "month": "September",
+      "week": "Week 3",
+      "title": "A Brief Period of Persecutions",
+      "subtitle":  "Prophecies to be Prayed - 03", 
+      "date": "September 14th, 2025", 
+      "tamilImage": "/assets/img/category/category_2_4.jpg",
+      "englishImage": "/assets/img/category/category_2_4.jpg",
+      "tamilPdf": "/pdfs/Week 3 - Prophecy Tamil.pdf",
+      "englishPdf": "/pdfs/Week 3 - Prophecy English.pdf"
+    },
+    {
+      "month": "September",
+      "week": "Week 4",
+        "title": "Why is the Revival Delayed?",
+        "subtitle":  "Prophecies to be Prayed - 04", 
+      "date": "September 21st, 2025", 
+        "tamilImage": "/assets/img/category/category_2_5.jpg",
+        "englishImage": "/assets/img/category/category_2_5.jpg",
+        "tamilPdf": "/pdfs/Week 4 - Tamil.pdf",
+        "englishPdf": "/pdfs/Week 4 - English.pdf"
+      },
+      {
+        "month": "October",
+        "week": "Week 5",
+          "title": "Prophecies Concerning the Revival of Israel",
+          "subtitle":  "Prophecies to be Prayed - 05", 
+        "date": "October 19tth, 2025", 
+          "tamilImage": "/assets/img/category/category_3_1.jpg",
+          "englishImage": "/assets/img/category/category_3_1.jpg",
+          "tamilPdf": "/pdfs/Week 5 - Tamil.pdf",
+          "englishPdf": "/pdfs/Week 5 - eng.pdf"
+        }
+  ]
+  

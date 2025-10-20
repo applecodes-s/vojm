@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from './MobileMenu';
+// import LoginForm from './LoginForm';
+
+
 
 function HeaderOne() {
    
     const [isSticky, setIsSticky] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     // const [isLoginFormOpen, setIsLoginFormOpen] = useState(false);
+    // const [modalOpen, setModalOpen] = useState(false);
 
+  
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 500) {
@@ -31,7 +36,7 @@ function HeaderOne() {
                     <div className="container th-container">
                         <div className="row justify-content-center justify-content-xl-between align-items-center">
                             <div className="col-auto d-none d-md-block">
-                              
+                 
                             </div>
                             <div className="col-auto">
                                 <div className="header-right">
@@ -39,15 +44,15 @@ function HeaderOne() {
                                         <NiceSelect options={languageOptions} defaultValue="Language" />
                                     </div> */}
 
-                                    {/* <div className="header-links">
+                                    <div className="header-links">
                                         <ul>
-                                             <li className="d-none d-md-inline-block">
+                                             {/* <li className="d-none d-md-inline-block">
                                                 <Link to="/faq">FAQ</Link>
-                                            </li> 
-                                             <li className="d-none d-md-inline-block">
+                                            </li>  */}
+                                             {/* <li className="d-none d-md-inline-block">
                                                 <Link to="/contact">Support</Link>
-                                            </li> 
-                                            <li>
+                                            </li>  */}
+                                            {/* <li>
                                                 <button
                                                     type="button"
                                                     onClick={() => setIsLoginFormOpen(true)}
@@ -55,9 +60,9 @@ function HeaderOne() {
                                                     Sign In / Register
                                                     <i className="fa-regular fa-user" />
                                                 </button>
-                                            </li>
+                                            </li> */}
                                         </ul>
-                                    </div> */}
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -84,12 +89,13 @@ function HeaderOne() {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                          
-                                           
+
                                             <li>
-                                            <a href="https://jvprophecy.vincentselvakumar.org/login" target="_blank" rel="noopener noreferrer">
-                                            Prophecies</a>
-                                            </li>
+                                                <Link to="/prophecies">Prophecies</Link>
+                                                </li>
+
+
+
                                             <li>
                                                 <a href="https://www.vincentselvakumarbooks.com/bookstore" target="_blank" rel="noopener noreferrer">
                                                 Books 
@@ -102,7 +108,7 @@ function HeaderOne() {
                                     <button
                                         type="button"
                                         className="th-menu-toggle d-block d-xl-none"
-                                        onClick={() => setIsMobileMenuOpen(true)}
+                                        onClick={() => setIsMobileMenuOpen(true)}x
                                     >
                                         <i className="far fa-bars" />
                                     </button>
@@ -125,6 +131,9 @@ function HeaderOne() {
                 </div>
             </header>
             <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
+            {/* <LoginForm isOpen={isLoginFormOpen} onClose={() => setIsLoginFormOpen(false)} /> */}
+                 {/* Prophecy Email Modal */}
+     
         </>
 
     )

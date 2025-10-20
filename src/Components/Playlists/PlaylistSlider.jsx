@@ -39,7 +39,7 @@ function PlaylistSlider() {
             className="swiper th-slider has-shadow slider-drag-wrap"
           >
             <SwiperSlide key="tour1">
-              <div className="playlist-box th-ani gsap-cursor">
+              <div className="playlist-box th-ani gsap-cursor"> 
                 <div className="playlist-box_img global-img">
                   <img src={"https://www.vincentselvakumar.org/assets/img/tour/tour_box_1.jpg"} alt="Seven Seals Messages" />
                 </div>

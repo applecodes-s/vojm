@@ -9,7 +9,7 @@ function MobileMenu({ isOpen, onClose }) {
     >
       <div className="th-menu-area text-center">
         <button className="th-menu-toggle" onClick={onClose} aria-label="Close">
-          <i className="fal fa-times" />
+          <i className="fas fa-times" />
         </button>
 
         <div className="mobile-logo">

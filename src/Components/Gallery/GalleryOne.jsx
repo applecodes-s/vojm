@@ -35,7 +35,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_1.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -55,7 +55,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_2.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -73,7 +73,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_3.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -93,7 +93,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_4.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -113,7 +113,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_5.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -131,7 +131,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_6.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
@@ -151,7 +151,7 @@ const openModal = (imageSrc, event) => {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_1_7.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        <i className="fas fa-magnifying-glass-plus" />
                                     </div>
                                 </Link>
                                 <img
